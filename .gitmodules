@@ -1,0 +1,6 @@
+[submodule "submod/qperf-go"]
+	path = submod/qperf-go
+	url = git@github.com:chajiuqqq/qperf-go.git
+[submodule "submod/mininet"]
+	path = submod/mininet
+	url = git@github.com:mininet/mininet.git

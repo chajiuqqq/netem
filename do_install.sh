@@ -1,10 +1,13 @@
+# install mininet
+PWD=$(pwd)
+cd submod/mininet/util 
+sh ./install.sh
+# install go
+rm -rf /usr/local/go && wget https://go.dev/dl/go1.20.12.linux-amd64.tar.gz && tar -C /usr/local -xzf go1.20.12.linux-amd64.tar.gz && rm go1.20.12.linux-amd64.tar.gz
 
-# install Mininet dependencies
-sudo apt install -y mininet openvswitch-switch cgroup-tools help2man
-# install poetry
-curl -sSL https://install.python-poetry.org | python3 -
-yes | poetry cache clear --all .  # Clear Poetry cache, this is sometimes needed
-rm -rf poetry.lock                # # Bugfix for repeated install
-rm -rf dist                       # Bugfix for repeated install
-#poetry update                     # Update Poetry lock dependencies
-poetry install                    # Package the dc_gym
+
+
+# install qperf
+export GOPROXY=https://goproxy.io,direct
+go install golang.org/dl/go1.19@latest && go1.19 download && go1.19 build -o ../../bin/qperf
+export PATH=$PATH:$PWD/bin
