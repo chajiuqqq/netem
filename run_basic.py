@@ -6,7 +6,7 @@ from mininet.link import TCLink
 
 class DumbbellTopo(Topo):
     "Dumbbell Topology"
-    def build(self):
+    def build(self): 
         leftSwitch = self.addSwitch('s1')
         rightSwitch = self.addSwitch('s2')
 
@@ -27,14 +27,17 @@ def run_tcp_test(net, congestion_algorithm):
     
     h1 = net.get('h1')
     h4 = net.get('h4')
-
+    r = h1.cmd('ping -c 10 %s &> result/ping_h1.txt' % h4.IP())
+    print('h1:',r)
+    r = h4.cmd('ping -c 10 %s &> result/ping_h4.txt' % h1.IP())
+    print('h4:',r)
     # Set congestion control algorithm
-    h1.cmd('sysctl -w net.ipv4.tcp_congestion_control={}'.format(congestion_algorithm))
+    # h1.cmd('sysctl -w net.ipv4.tcp_congestion_control={}'.format(congestion_algorithm))
 
     # Perform TCP test
-    h4.cmd('iperf -s &> {}/h4_{}_result.txt &'.format(result_dir, congestion_algorithm))
-    result = h1.cmd('iperf -c {} &> {}/h1_{}_result.txt'.format(h4.IP(), result_dir, congestion_algorithm))
-    print(result)
+    # h4.cmd('iperf -s &> {}/h4_{}_result.txt &'.format(result_dir, congestion_algorithm))
+    # result = h1.cmd('iperf -c {} -t 30s &> {}/h1_{}_result.txt'.format(h4.IP(), result_dir, congestion_algorithm))
+    # print(result)
 
     # net.iperf((h1,h4),port=8080)
 
@@ -48,9 +51,9 @@ def main():
 
     # Run TCP tests with different congestion control algorithms
     run_tcp_test(net, "cubic")
-    run_tcp_test(net, "reno")
+    # run_tcp_test(net, "reno")
 
-    # CLI(net)
+    CLI(net)
     net.stop()
 
 if __name__ == '__main__':
