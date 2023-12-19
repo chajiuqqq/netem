@@ -42,10 +42,15 @@ def run_tcp_test(net, congestion_algorithm):
 
     # net.iperf((h1,h4),port=8080)
 def run_quic_test(net):
+    result_dir = "result"
+    duration = 60
+    net.pingAll()
     h1 = net.get('h1')
     h4 = net.get('h4')
+
+    h4.cmd('./bin/qperf server --port=8080 &> %s/quic_h4.txt  &' % result_dir)
+    h1.cmd('./bin/qperf client --addr="%s:8080" --t=%d &> %s/quic_h1.txt' % ( h4.IP(),duration,result_dir))
     
-    print(h4.cmd('qperf server --port=1234 &> result/qperf_h4.txt &'))
     
 
 topos = {'dumbbellTopo':DumbbellTopo}
@@ -57,10 +62,11 @@ def main():
     net.start()
 
     # Run TCP tests with different congestion control algorithms
-    run_tcp_test(net, "cubic")
-    run_tcp_test(net, "reno")
+    # run_tcp_test(net, "cubic")
+    # run_tcp_test(net, "reno")
 
-    CLI(net)
+    run_quic_test(net)
+    # CLI(net)
     net.stop()
 
 if __name__ == '__main__':

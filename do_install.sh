@@ -1,3 +1,5 @@
+git submodule update --init --recursive
+
 # install mininet
 PWD=$(pwd)
 cd submod/mininet/util 
