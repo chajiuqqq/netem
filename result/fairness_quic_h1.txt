@@ -1,36 +1,66 @@
-started QUIC connection 2bc28a2133a0e09484a2d4a11e1c
-connection establishment time: 61.98 ms
-time to first byte: 62.7 ms
-second 1: 8.99 Mbit/s, bytes received: 1.125122 MB, packets received: 893
-second 2: 9 Mbit/s, bytes received: 1.125726 MB, packets received: 813
-second 3: 9.03 Mbit/s, bytes received: 1.12966 MB, packets received: 810
-second 4: 9.12 Mbit/s, bytes received: 1.140977 MB, packets received: 818
-second 5: 9.03 Mbit/s, bytes received: 1.130165 MB, packets received: 812
-second 6: 9.07 Mbit/s, bytes received: 1.133901 MB, packets received: 813
-second 7: 9.03 Mbit/s, bytes received: 1.129666 MB, packets received: 810
-second 8: 9.02 Mbit/s, bytes received: 1.128751 MB, packets received: 812
-second 9: 9.05 Mbit/s, bytes received: 1.132481 MB, packets received: 814
-second 10: 9.05 Mbit/s, bytes received: 1.132493 MB, packets received: 813
-second 11: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 812
-second 12: 9.05 Mbit/s, bytes received: 1.133 MB, packets received: 813
-second 13: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 814
-second 14: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 812
-second 15: 9.05 Mbit/s, bytes received: 1.132986 MB, packets received: 813
-second 16: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 814
-second 17: 9.07 Mbit/s, bytes received: 1.135308 MB, packets received: 814
-second 18: 9.05 Mbit/s, bytes received: 1.132501 MB, packets received: 812
-second 19: 9.1 Mbit/s, bytes received: 1.138649 MB, packets received: 817
-second 20: 9.09 Mbit/s, bytes received: 1.138143 MB, packets received: 816
-second 21: 9.1 Mbit/s, bytes received: 1.138649 MB, packets received: 817
-second 22: 9.05 Mbit/s, bytes received: 1.132481 MB, packets received: 812
-second 23: 9.07 Mbit/s, bytes received: 1.135335 MB, packets received: 814
-second 24: 9.12 Mbit/s, bytes received: 1.14147 MB, packets received: 819
-second 25: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 814
-second 26: 9.1 Mbit/s, bytes received: 1.138129 MB, packets received: 816
-second 27: 9.07 Mbit/s, bytes received: 1.135835 MB, packets received: 815
-second 28: 9.07 Mbit/s, bytes received: 1.135315 MB, packets received: 814
-second 29: 9.12 Mbit/s, bytes received: 1.140985 MB, packets received: 819
-second 30: 9.07 Mbit/s, bytes received: 1.135814 MB, packets received: 816
-closed QUIC connection 2bc28a2133a0e09484a2d4a11e1c
-total: bytes received: 34.02591 MB, packets received: 24502
+started QUIC connection b4f363b50aecadff15c1c352fc0cd5b5a3d52f45
+connection establishment time: 66.06 ms
+time to first byte: 66.85 ms
+second 1: 8.78 Mbit/s, bytes received: 1.099513 MB, packets received: 876
+second 2: 8.43 Mbit/s, bytes received: 1.054193 MB, packets received: 763
+second 3: 8.61 Mbit/s, bytes received: 1.077354 MB, packets received: 773
+second 4: 8.7 Mbit/s, bytes received: 1.089576 MB, packets received: 781
+second 5: 8.61 Mbit/s, bytes received: 1.077354 MB, packets received: 773
+second 6: 8.58 Mbit/s, bytes received: 1.074014 MB, packets received: 770
+second 7: 8.62 Mbit/s, bytes received: 1.078776 MB, packets received: 774
+second 8: 8.62 Mbit/s, bytes received: 1.07827 MB, packets received: 773
+second 9: 8.63 Mbit/s, bytes received: 1.080176 MB, packets received: 775
+second 10: 8.68 Mbit/s, bytes received: 1.086747 MB, packets received: 779
+second 11: 8.68 Mbit/s, bytes received: 1.087253 MB, packets received: 780
+second 12: 8.66 Mbit/s, bytes received: 1.083919 MB, packets received: 777
+second 13: 8.7 Mbit/s, bytes received: 1.088667 MB, packets received: 781
+second 14: 8.63 Mbit/s, bytes received: 1.079675 MB, packets received: 774
+second 15: 8.71 Mbit/s, bytes received: 1.090076 MB, packets received: 782
+second 16: 8.7 Mbit/s, bytes received: 1.088667 MB, packets received: 781
+second 17: 8.66 Mbit/s, bytes received: 1.083919 MB, packets received: 777
+second 18: 8.7 Mbit/s, bytes received: 1.088667 MB, packets received: 781
+second 19: 8.63 Mbit/s, bytes received: 1.079677 MB, packets received: 774
+second 20: 8.66 Mbit/s, bytes received: 1.083004 MB, packets received: 777
+second 21: 8.73 Mbit/s, bytes received: 1.091495 MB, packets received: 783
+second 22: 8.68 Mbit/s, bytes received: 1.086754 MB, packets received: 779
+second 23: 8.68 Mbit/s, bytes received: 1.085832 MB, packets received: 779
+second 24: 8.73 Mbit/s, bytes received: 1.092403 MB, packets received: 783
+second 25: 8.66 Mbit/s, bytes received: 1.083011 MB, packets received: 777
+second 26: 8.73 Mbit/s, bytes received: 1.092902 MB, packets received: 784
+second 27: 8.7 Mbit/s, bytes received: 1.089582 MB, packets received: 781
+second 28: 8.66 Mbit/s, bytes received: 1.082997 MB, packets received: 777
+second 29: 8.73 Mbit/s, bytes received: 1.092398 MB, packets received: 783
+second 30: 8.73 Mbit/s, bytes received: 1.092921 MB, packets received: 784
+second 31: 8.66 Mbit/s, bytes received: 1.083004 MB, packets received: 777
+second 32: 8.73 Mbit/s, bytes received: 1.092398 MB, packets received: 783
+second 33: 8.7 Mbit/s, bytes received: 1.088672 MB, packets received: 781
+second 34: 8.65 Mbit/s, bytes received: 1.082505 MB, packets received: 776
+second 35: 8.73 Mbit/s, bytes received: 1.091488 MB, packets received: 783
+second 36: 8.7 Mbit/s, bytes received: 1.090081 MB, packets received: 782
+second 37: 8.66 Mbit/s, bytes received: 1.083919 MB, packets received: 777
+second 38: 8.73 Mbit/s, bytes received: 1.091495 MB, packets received: 783
+second 39: 8.67 Mbit/s, bytes received: 1.085334 MB, packets received: 778
+second 40: 8.69 Mbit/s, bytes received: 1.087245 MB, packets received: 780
+second 41: 8.7 Mbit/s, bytes received: 1.088667 MB, packets received: 781
+second 42: 8.66 Mbit/s, bytes received: 1.083926 MB, packets received: 777
+second 43: 8.73 Mbit/s, bytes received: 1.091488 MB, packets received: 783
+second 44: 8.73 Mbit/s, bytes received: 1.092401 MB, packets received: 783
+second 45: 8.63 Mbit/s, bytes received: 1.080185 MB, packets received: 775
+second 46: 8.73 Mbit/s, bytes received: 1.091488 MB, packets received: 783
+second 47: 8.71 Mbit/s, bytes received: 1.089573 MB, packets received: 781
+second 48: 8.65 Mbit/s, bytes received: 1.083013 MB, packets received: 777
+second 49: 8.73 Mbit/s, bytes received: 1.092392 MB, packets received: 783
+second 50: 8.72 Mbit/s, bytes received: 1.091506 MB, packets received: 783
+second 51: 8.66 Mbit/s, bytes received: 1.082995 MB, packets received: 777
+second 52: 8.73 Mbit/s, bytes received: 1.092402 MB, packets received: 783
+second 53: 8.68 Mbit/s, bytes received: 1.085849 MB, packets received: 779
+second 54: 8.73 Mbit/s, bytes received: 1.092393 MB, packets received: 783
+second 55: 8.73 Mbit/s, bytes received: 1.091505 MB, packets received: 783
+second 56: 8.66 Mbit/s, bytes received: 1.083004 MB, packets received: 777
+second 57: 8.75 Mbit/s, bytes received: 1.095229 MB, packets received: 785
+second 58: 8.66 Mbit/s, bytes received: 1.083013 MB, packets received: 777
+second 59: 8.73 Mbit/s, bytes received: 1.091488 MB, packets received: 783
+second 60: 8.73 Mbit/s, bytes received: 1.09241 MB, packets received: 783
+closed QUIC connection b4f363b50aecadff15c1c352fc0cd5b5a3d52f45
+total: bytes received: 65.19086 MB, packets received: 46847
 export states success:result/qperf_result.json

@@ -3,7 +3,9 @@ from mininet.net import Mininet
 from mininet.cli import CLI
 from mininet.log import setLogLevel
 from mininet.link import TCLink
+from chart import plot
 
+duration = 60   
 class DumbbellTopo(Topo):
     "Dumbbell Topology"
     def build(self): 
@@ -31,14 +33,13 @@ def run_tcp_test(net,test_prefix):
     # h1.cmd('sysctl -w net.ipv4.tcp_congestion_control={}'.format(congestion_algorithm))
 
     # Perform TCP test
-    h4.cmd(f'iperf3 -s -p 5000 &> {result_dir}/{test_prefix}_tcp_h4.txt &')
-    pid = h1.cmd(f'iperf3 -c {h4.IP()} -p 5000 -t 30 -i 1 --json -R &> {result_dir}/{test_prefix}_tcp_h1.txt &')
+    h4.cmd(f'iperf3 -s -p 5000 -i 1 &> {result_dir}/{test_prefix}_tcp_h4.txt &')
+    pid = h1.cmd(f'iperf3 -c {h4.IP()} -p 5000 -t {duration} -i 1 --json -R -P 2 &> {result_dir}/{test_prefix}_tcp_h1.txt &')
     print(pid)
 
     # net.iperf((h1,h4),port=8080)
 def run_quic_test(net,test_prefix):
     result_dir = "result"
-    duration = 30
     h1 = net.get('h1')
     h4 = net.get('h4')
 
@@ -55,11 +56,6 @@ def run_fairness_test(net):
     run_quic_test(net,'fairness')
     print(net.get('h1').cmd('wait'))
 
-def plot(net):
-    h1 = net.get('h1')
-    h1.cmd('python3 chart.py')
-    
-
 topos = {'dumbbellTopo':DumbbellTopo}
 def main():
     setLogLevel('info')
@@ -72,9 +68,11 @@ def main():
     # run_tcp_test(net, "cubic")
     # run_tcp_test(net, "reno")
 
-    run_fairness_test(net)
-    plot(net)
-    
+    # run_fairness_test(net)
+    run_tcp_test(net,'fairness')
+    print(net.get('h1').cmd('wait'))
+    plot('fairness')
+
     # CLI(net)
     net.stop()
 
