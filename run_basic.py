@@ -25,7 +25,7 @@ class DumbbellTopo(Topo):
 
 def run_tcp_test(net,test_prefix):
     result_dir = "result"
-    
+    stream_num = 1
     h1 = net.get('h1')
     h4 = net.get('h4')
 
@@ -34,7 +34,7 @@ def run_tcp_test(net,test_prefix):
 
     # Perform TCP test
     h4.cmd(f'iperf3 -s -p 5000 -i 1 &> {result_dir}/{test_prefix}_tcp_h4.txt &')
-    pid = h1.cmd(f'iperf3 -c {h4.IP()} -p 5000 -t {duration} -i 1 --json -R -P 2 &> {result_dir}/{test_prefix}_tcp_h1.txt &')
+    pid = h1.cmd(f'iperf3 -c {h4.IP()} -p 5000 -t {duration} -i 1 --json -R -P {stream_num} &> {result_dir}/{test_prefix}_tcp_h1.txt &')
     print(pid)
 
     # net.iperf((h1,h4),port=8080)
