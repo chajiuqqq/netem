@@ -1,0 +1,6 @@
+starting server with pid 8357, port 8080, cc new reno, iw 32
+started QUIC connection 2bc28a2133a0e09484a2d4a11e1c
+[connection 0] open
+[connection 0][stream 0] open
+closed QUIC connection 2bc28a2133a0e09484a2d4a11e1c
+[connection 0] close

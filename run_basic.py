@@ -21,36 +21,43 @@ class DumbbellTopo(Topo):
         self.addLink(rightHost2, rightSwitch)
         self.addLink(leftSwitch, rightSwitch,bw=10)
 
-def run_tcp_test(net, congestion_algorithm):
+def run_tcp_test(net,test_prefix):
     result_dir = "result"
-    net.pingAll()
     
     h1 = net.get('h1')
     h4 = net.get('h4')
-    # r = h1.cmd('ping -c 10 %s &> result/ping_h1.txt' % h4.IP())
-    # print('h1:',r)
-    # r = h4.cmd('ping -c 10 %s &> result/ping_h4.txt' % h1.IP())
-    # print('h4:',r)
 
     # Set congestion control algorithm
-    h1.cmd('sysctl -w net.ipv4.tcp_congestion_control={}'.format(congestion_algorithm))
+    # h1.cmd('sysctl -w net.ipv4.tcp_congestion_control={}'.format(congestion_algorithm))
 
     # Perform TCP test
-    h4.cmd('iperf -s &> {}/h4_{}_result.txt &'.format(result_dir, congestion_algorithm))
-    result = h1.cmd('iperf -c {} -t 30 -i 1 &> {}/h1_{}_result.txt'.format(h4.IP(), result_dir, congestion_algorithm))
-    print(result)
+    h4.cmd(f'iperf3 -s -p 5000 &> {result_dir}/{test_prefix}_tcp_h4.txt &')
+    pid = h1.cmd(f'iperf3 -c {h4.IP()} -p 5000 -t 30 -i 1 --json -R &> {result_dir}/{test_prefix}_tcp_h1.txt &')
+    print(pid)
 
     # net.iperf((h1,h4),port=8080)
-def run_quic_test(net):
+def run_quic_test(net,test_prefix):
     result_dir = "result"
-    duration = 60
-    net.pingAll()
+    duration = 30
     h1 = net.get('h1')
     h4 = net.get('h4')
 
-    h4.cmd('./bin/qperf server --port=8080 &> %s/quic_h4.txt  &' % result_dir)
-    h1.cmd('./bin/qperf client --addr="%s:8080" --t=%d &> %s/quic_h1.txt' % ( h4.IP(),duration,result_dir))
+    h4.cmd(f'./bin/qperf server --port=8080 &> {result_dir}/{test_prefix}_quic_h4.txt &')
+    pid = h1.cmd(f'./bin/qperf client --addr="{h4.IP()}:8080" --t={duration} &> {result_dir}/{test_prefix}_quic_h1.txt &')
+    print(pid)
+
+def run_fairness_test(net):
+    print('run_fairness_test...')
+    print('start tcp test...')
+    run_tcp_test(net,'fairness')
     
+    print('start quic test...')
+    run_quic_test(net,'fairness')
+    print(net.get('h1').cmd('wait'))
+
+def plot(net):
+    h1 = net.get('h1')
+    h1.cmd('python3 chart.py')
     
 
 topos = {'dumbbellTopo':DumbbellTopo}
@@ -65,7 +72,9 @@ def main():
     # run_tcp_test(net, "cubic")
     # run_tcp_test(net, "reno")
 
-    run_quic_test(net)
+    run_fairness_test(net)
+    plot(net)
+    
     # CLI(net)
     net.stop()
 
