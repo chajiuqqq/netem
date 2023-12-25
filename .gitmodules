@@ -4,3 +4,6 @@
 [submodule "submod/mininet"]
 	path = submod/mininet
 	url = git@github.com:mininet/mininet.git
+[submodule "submod/pageloading-tester"]
+	path = submod/pageloading-tester
+	url = https://github.com/dodinhtrung97/page-load-time-tester.git
