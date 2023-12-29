@@ -7,3 +7,6 @@
 [submodule "submod/pageloading-tester"]
 	path = submod/pageloading-tester
 	url = https://github.com/dodinhtrung97/page-load-time-tester.git
+[submodule "submod/http2"]
+	path = submod/http2
+	url = git@github.com:chajiuqqq/http2.git

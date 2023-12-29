@@ -1,6 +1,6 @@
-starting server with pid 27252, port 8080, cc new reno, iw 32
-started QUIC connection 09f4236d3b3143459423
+starting server with pid 11602, port 8080, cc new reno, iw 32
+started QUIC connection 480423d08b744190953f51518b271f
 [connection 0] open
 [connection 0][stream 0] open
-closed QUIC connection 09f4236d3b3143459423
+closed QUIC connection 480423d08b744190953f51518b271f
 [connection 0] close

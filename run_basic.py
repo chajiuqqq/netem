@@ -7,6 +7,7 @@ from chart import *
 
 import argparse
 
+result_dir = "result"
 class DumbbellTopo(Topo):
     "Dumbbell Topology"
     def build(self): 
@@ -25,7 +26,6 @@ class DumbbellTopo(Topo):
         self.addLink(leftSwitch, rightSwitch,bw=10)
 
 def run_tcp_test(net,test_prefix):
-    result_dir = "result"
     stream_num = 1
     h1 = net.get('h1')
     h4 = net.get('h4')
@@ -41,12 +41,11 @@ def run_tcp_test(net,test_prefix):
 
     # net.iperf((h1,h4),port=8080)
 def run_quic_test(net,test_prefix):
-    result_dir = "result"
     h1 = net.get('h1')
     h4 = net.get('h4')
 
-    h4.cmd(f'./bin/qperf server --port=8080 &> {result_dir}/{test_prefix}_quic_h4.txt &')
-    pid = h1.cmd(f'./bin/qperf client --addr="{h4.IP()}:8080" --t={args.duration} &> {result_dir}/{test_prefix}_quic_h1.txt &')
+    h4.cmd(f'./bin/qperf-go server --port=8080 &> {result_dir}/{test_prefix}_quic_h4.txt &')
+    pid = h1.cmd(f'./bin/qperf-go client --log-prefix {test_prefix} --addr="{h4.IP()}:8080" --t={args.duration} &> {result_dir}/{test_prefix}_quic_h1.txt &')
     print(pid)
     return pid
 
@@ -59,12 +58,32 @@ def run_fairness_test(net):
     run_quic_test(net,'fairness')
     print(net.get('h1').cmd('wait'))
 
+def run_throughput_test(net):
+    print('run_throughput...')
+    print('start tcp test...')
+    run_tcp_test(net,'throughput')
+    print(net.get('h1').cmd('wait'))
+
+    print('start quic test...')
+    run_quic_test(net,'throughput')
+    print(net.get('h1').cmd('wait'))
+
+def run_10mb_test(net):
+    test_prefix = "10mb"
+    h1 = net.get('h1')
+    h4 = net.get('h4')
+    h4.cmd(f'./bin/qperf-go server --port=8888 --http3 --www www &> {result_dir}/{test_prefix}_quic_h4.txt &')
+    pid = h1.cmd(f'./bin/qperf-go client --http3 --quiet=True https://{h4.IP()}:8888/10MB.jpg &> {result_dir}/{test_prefix}_quic_h1.txt &')
+    print(pid)
+    h1.cmd('wait')
+    return pid
+
 topos = {'dumbbellTopo':DumbbellTopo}
  # 创建 ArgumentParser 对象
 parser = argparse.ArgumentParser(description='示例程序 - 一个简单的命令行工具')
 
 # 添加位置参数（Positional Arguments）
-parser.add_argument('-t','--test', help='测试名称 fairness quic tcp')
+parser.add_argument('-t','--test', help='测试名称 fairness, quic, tcp, quic-std')
 
 # 添加位置参数（Positional Arguments）
 parser.add_argument('-d','--duration',default=60, help='测试时间 s 默认60')
@@ -82,19 +101,14 @@ def main():
     topo = DumbbellTopo()
     net = Mininet(topo=topo, link=TCLink)
     net.start()
-
+    if args.test == 'throughput':
+        run_throughput_test(net)
+        plot('throughput')
+    if args.test == 'quic-std':
+        run_10mb_test(net)
     if args.test == 'fairness':
         run_fairness_test(net)
         plot('fairness')
-    if args.test == 'tcp':
-        pid = run_tcp_test(net,'single')
-        print(net.get('h1').cmd(f'wait {pid}'))
-        plot_single('tcp')
-        
-    if args.test == 'quic':
-        pid = run_quic_test(net,'single')
-        print(net.get('h1').cmd(f'wait {pid}'))
-        plot_single('quic')
 
     # CLI(net)
     net.stop()

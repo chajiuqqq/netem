@@ -3,9 +3,9 @@ import os,json,random,sys
 from ggplot import *
 from utils import * 
 
-def read_qperf():
+def read_qperf(test_name='test'):
     # 读取 export.json 文件
-    with open("result/qperf_result.json", "r") as f:
+    with open(f"result/qperf_{test_name}_result.json", "r") as f:
         df = pd.read_json(f, orient='records') 
 
     # 创建pic目录（如果不存在）
@@ -35,15 +35,15 @@ def read_tcp(file='fairness_tcp_h1.json'):
 
 
 def plot(test_name='test'):
-    df1=read_qperf()
-    df2=read_tcp()
+    df1=read_qperf(test_name)
+    df2=read_tcp(f'{test_name}_tcp_h1.json')
 
     # mean
     mean_dict ={}
-    mean_dict['title']='fairness result(mbps)'
+    mean_dict['title']=f'{test_name} result(mbps)'
     mean_dict['quic']=df1['mbps'].mean()
     mean_dict['tcp']=df2['mbps'].mean()
-    write_to_file(mean_dict,"result/fairness.json")
+    write_to_file(mean_dict,f"result/{test_name}_mean.json")
     
     # set plot data
     df=pd.DataFrame()
@@ -59,35 +59,30 @@ def plot(test_name='test'):
             geom_point() +\
               geom_line()+\
                 ylab('rate(Mbps)')+\
-                ggtitle('fairness between quic and tcp')
-    img_name = f'./pic/{test_name}_{random.randint(0,999)}.png'
+                ggtitle(f'{test_name} between quic and tcp')
+    img_name = f'./pic/{test_name}_{now()}.png'
     print(f'img save at {img_name}')
     p.save(img_name)
 
-def plot_single(test_name='tcp'):
-    if test_name=='tcp':
-        df=read_tcp('single_tcp_h1.json')
+def plot_10mb_test():
+   df = pd.DataFrame({'group':['GAE','MyQuicServer'],'time':[2000,996]})
+   print(df.head())
+   p = ggplot(df,aes(x='group',weight='time'))+geom_bar(fill='#2b8cbe')+ylab('Time(ms)')+xlab('Groups')+ggtitle('10MB Img over 100Mbps link')
+   p.save('./pic/quic_std.png')
 
-        p = ggplot(df,aes(x='second', y='mbps')) +\
-            geom_point() +\
-              geom_line()+\
-                ylab('rate(Mbps)')+\
-                ggtitle(f'{test_name} test')
-    
-    if test_name=='quic':
-        df=read_qperf()
+from datetime import datetime
+def now():
+    # 获取当前时间
+    current_time = datetime.now()
 
-        p = ggplot(df,aes(x='Second', y='Rate(Mbps)')) +\
-            geom_point() +\
-              geom_line()+\
-                ylab('rate(Mbps)')+\
-                ggtitle(f'{test_name} test')
-    img_name = f'./pic/{test_name}_{random.randint(0,999)}.png'
-    print(f'img save at {img_name}')
-    p.save(img_name)
-
+    # 格式化时间戳
+    timestamp_format = "%Y%m%d%H%M%S"
+    timestamp = current_time.strftime(timestamp_format)
+    return timestamp
 if __name__ == '__main__':
-    test_name='test'
-    if len(sys.argv)>1:
-        test_name = sys.argv[1]
-    plot(test_name)
+    # test_name='test'
+    # if len(sys.argv)>1:
+    #     test_name = sys.argv[1]
+    # plot(test_name)
+    print(diamonds.head())
+    plot_10mb_test()
