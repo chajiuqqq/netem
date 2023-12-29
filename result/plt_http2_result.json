@@ -1,14 +1,14 @@
 {
     "url": "https://10.0.0.4:8080/welcome",
-    "averageLoadingTime": 4570.793628692627,
+    "averageLoadingTime": 7317.636728286743,
     "resultSet": [
         {
-            "loadingTime": 4570.793628692627,
+            "loadingTime": 7317.636728286743,
             "attempt_1": [
                 {
                     "entryType": "navigation",
                     "initiatorType": "navigation",
-                    "loadingTime": 1624.8499999046326,
+                    "loadingTime": 3203.449999809265,
                     "name": "https://10.0.0.4:8080/welcome"
                 }
             ]

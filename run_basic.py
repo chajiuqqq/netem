@@ -79,14 +79,22 @@ def run_10mb_test(net):
     h1.cmd('wait')
     return pid
 def run_plt_test(net):
+    # 改造plt-tester，支持多个url
+    # 改造qperf和http2的server，支持5kb-10mb的网页大小，支持1mb-5kb但数量不同的img测试
+    # plt的画图
     test_prefix = "plt"
     h1 = net.get('h1')
     h4 = net.get('h4')
+    # http2
     h4.cmd(f'./bin/http2 --cert server.crt --key server.key &> {log_dir}/{test_prefix}_http2_h4.txt &')
-    pid = h1.cmd(f'python3 submod/pageloading-tester/src/main.py bin/chromedriver https://{h4.IP()}:8080/welcome plt_http2_result.json &> {log_dir}/{test_prefix}_http2_h1.txt &')
-    print(pid)
+    h1.cmd(f'python3 submod/pageloading-tester/src/main.py bin/chromedriver https://{h4.IP()}:8080/welcome plt_http2_result.json &> {log_dir}/{test_prefix}_http2_h1.txt &')
+    print('doing http2 plt testing...')
     h1.cmd('wait')
-    return pid
+    # quic
+    h4.cmd(f'./bin/qperf-go server --port=8888 --http3 --www www &> {log_dir}/{test_prefix}_quic_h4.txt &')
+    h1.cmd(f'./bin/qperf-go client --http3 --quiet=True https://{h4.IP()}:8888/10MB.jpg &> {log_dir}/{test_prefix}_quic_h1.txt &')
+    print('doing quic plt testing...')
+    h1.cmd('wait')
 topos = {'dumbbellTopo':DumbbellTopo}
  # 创建 ArgumentParser 对象
 parser = argparse.ArgumentParser(description='示例程序 - 一个简单的命令行工具')

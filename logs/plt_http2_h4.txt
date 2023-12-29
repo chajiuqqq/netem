@@ -11,5 +11,5 @@
 [GIN-debug] Listening and serving HTTPS on :8080
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-2023/12/29 15:00:11 http: TLS handshake error from 10.0.0.1:35192: remote error: tls: unknown certificate
-2023/12/29 15:00:11 http: TLS handshake error from 10.0.0.1:35194: remote error: tls: unknown certificate
+2023/12/29 15:28:54 http: TLS handshake error from 10.0.0.1:35788: remote error: tls: unknown certificate
+2023/12/29 15:28:54 http: TLS handshake error from 10.0.0.1:35786: remote error: tls: unknown certificate

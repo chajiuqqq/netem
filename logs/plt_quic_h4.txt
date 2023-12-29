@@ -1,0 +1,3 @@
+http3 served on 0.0.0.0:8888
+started QUIC connection f28e2c45cd179645a04a3c
+closed QUIC connection f28e2c45cd179645a04a3c

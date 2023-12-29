@@ -1,0 +1,5 @@
+GET https://10.0.0.4:8888/10MB.jpg
+started QUIC connection f28e2c45cd179645a04a3c
+Response Body: 10174706 bytes
+report: url[https://10.0.0.4:8888/10MB.jpg] timeUsage[%!s(int64=8645) ms] size[10174706 B]
+closed QUIC connection f28e2c45cd179645a04a3c
