@@ -1,0 +1,66 @@
+[fairness] started QUIC connection c17ca053596cafd4dacafe199d
+[fairness] connection establishment time: 79.53 ms
+[fairness] time to first byte: 81.05 ms
+[fairness] second 1: 8.82 Mbit/s, bytes received: 1.103638 MB, packets received: 874
+[fairness] second 2: 8.95 Mbit/s, bytes received: 1.11984 MB, packets received: 808
+[fairness] second 3: 9.02 Mbit/s, bytes received: 1.128756 MB, packets received: 810
+[fairness] second 4: 9.12 Mbit/s, bytes received: 1.140978 MB, packets received: 818
+[fairness] second 5: 9.05 Mbit/s, bytes received: 1.132474 MB, packets received: 812
+[fairness] second 6: 9.05 Mbit/s, bytes received: 1.133006 MB, packets received: 813
+[fairness] second 7: 9.03 Mbit/s, bytes received: 1.129666 MB, packets received: 810
+[fairness] second 8: 9.03 Mbit/s, bytes received: 1.129659 MB, packets received: 810
+[fairness] second 9: 9.05 Mbit/s, bytes received: 1.132488 MB, packets received: 812
+[fairness] second 10: 9.03 Mbit/s, bytes received: 1.130171 MB, packets received: 811
+[fairness] second 11: 9.03 Mbit/s, bytes received: 1.129659 MB, packets received: 810
+[fairness] second 12: 9.05 Mbit/s, bytes received: 1.132487 MB, packets received: 812
+[fairness] second 13: 9.05 Mbit/s, bytes received: 1.132501 MB, packets received: 812
+[fairness] second 14: 9.06 Mbit/s, bytes received: 1.132993 MB, packets received: 813
+[fairness] second 15: 9.04 Mbit/s, bytes received: 1.131073 MB, packets received: 812
+[fairness] second 16: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 811
+[fairness] second 17: 9.05 Mbit/s, bytes received: 1.132993 MB, packets received: 813
+[fairness] second 18: 9.1 Mbit/s, bytes received: 1.138143 MB, packets received: 816
+[fairness] second 19: 9.09 Mbit/s, bytes received: 1.136743 MB, packets received: 815
+[fairness] second 20: 9.07 Mbit/s, bytes received: 1.1344 MB, packets received: 814
+[fairness] second 21: 9.06 Mbit/s, bytes received: 1.133901 MB, packets received: 813
+[fairness] second 22: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 812
+[fairness] second 23: 9.07 Mbit/s, bytes received: 1.135314 MB, packets received: 814
+[fairness] second 24: 9.07 Mbit/s, bytes received: 1.135822 MB, packets received: 815
+[fairness] second 25: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 814
+[fairness] second 26: 9.1 Mbit/s, bytes received: 1.13815 MB, packets received: 816
+[fairness] second 27: 9.07 Mbit/s, bytes received: 1.135821 MB, packets received: 815
+[fairness] second 28: 9.07 Mbit/s, bytes received: 1.135315 MB, packets received: 815
+[fairness] second 29: 9.05 Mbit/s, bytes received: 1.132488 MB, packets received: 812
+[fairness] second 30: 9.07 Mbit/s, bytes received: 1.135827 MB, packets received: 815
+[fairness] second 31: 9.07 Mbit/s, bytes received: 1.135308 MB, packets received: 814
+[fairness] second 32: 9.05 Mbit/s, bytes received: 1.132501 MB, packets received: 812
+[fairness] second 33: 9.05 Mbit/s, bytes received: 1.132993 MB, packets received: 813
+[fairness] second 34: 9.05 Mbit/s, bytes received: 1.132488 MB, packets received: 812
+[fairness] second 35: 9.1 Mbit/s, bytes received: 1.138156 MB, packets received: 816
+[fairness] second 36: 9.1 Mbit/s, bytes received: 1.138642 MB, packets received: 817
+[fairness] second 37: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 812
+[fairness] second 38: 9.07 Mbit/s, bytes received: 1.135315 MB, packets received: 814
+[fairness] second 39: 9.1 Mbit/s, bytes received: 1.138643 MB, packets received: 817
+[fairness] second 40: 9.07 Mbit/s, bytes received: 1.135328 MB, packets received: 814
+[fairness] second 41: 9.1 Mbit/s, bytes received: 1.138141 MB, packets received: 818
+[fairness] second 42: 9.07 Mbit/s, bytes received: 1.135823 MB, packets received: 815
+[fairness] second 43: 9.05 Mbit/s, bytes received: 1.132486 MB, packets received: 812
+[fairness] second 44: 9.1 Mbit/s, bytes received: 1.138158 MB, packets received: 816
+[fairness] second 45: 9.07 Mbit/s, bytes received: 1.135814 MB, packets received: 815
+[fairness] second 46: 9.05 Mbit/s, bytes received: 1.132476 MB, packets received: 812
+[fairness] second 47: 9.07 Mbit/s, bytes received: 1.135331 MB, packets received: 814
+[fairness] second 48: 9.07 Mbit/s, bytes received: 1.135823 MB, packets received: 815
+[fairness] second 49: 9.07 Mbit/s, bytes received: 1.135313 MB, packets received: 814
+[fairness] second 50: 9.07 Mbit/s, bytes received: 1.135331 MB, packets received: 814
+[fairness] second 51: 9.05 Mbit/s, bytes received: 1.132986 MB, packets received: 813
+[fairness] second 52: 9.07 Mbit/s, bytes received: 1.135313 MB, packets received: 814
+[fairness] second 53: 9.08 Mbit/s, bytes received: 1.136736 MB, packets received: 815
+[fairness] second 54: 9.06 Mbit/s, bytes received: 1.1339 MB, packets received: 813
+[fairness] second 55: 9.05 Mbit/s, bytes received: 1.132986 MB, packets received: 813
+[fairness] second 56: 9.07 Mbit/s, bytes received: 1.135339 MB, packets received: 814
+[fairness] second 57: 9.07 Mbit/s, bytes received: 1.135304 MB, packets received: 814
+[fairness] second 58: 9.07 Mbit/s, bytes received: 1.135823 MB, packets received: 815
+[fairness] second 59: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 815
+[fairness] second 60: 9.07 Mbit/s, bytes received: 1.135322 MB, packets received: 815
+[fairness] closed QUIC connection c17ca053596cafd4dacafe199d
+[fairness] total: bytes received: 68.020211 MB, packets received: 48874
+[fairness] export states success:result/qperf_fairness_result.json
