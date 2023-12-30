@@ -1,5 +1,20 @@
-GET https://10.0.0.4:8888/10MB.jpg
-started QUIC connection f28e2c45cd179645a04a3c
+GET https://10.0.0.4:8888/www/5kb.jpeg
+GET https://10.0.0.4:8888/www/10kb.jpeg
+GET https://10.0.0.4:8888/www/100kb.jpeg
+GET https://10.0.0.4:8888/www/200kb.jpeg
+GET https://10.0.0.4:8888/www/1mb.jpeg
+GET https://10.0.0.4:8888/www/10mb.jpeg
+started QUIC connection 9e35a09ff8952b765caadf818e
+Response Body: 4703 bytes
+report: url[https://10.0.0.4:8888/www/5kb.jpeg] timeUsage[%!s(int64=87) ms] size[4703 B]
+Response Body: 16728 bytes
+report: url[https://10.0.0.4:8888/www/10kb.jpeg] timeUsage[%!s(int64=157) ms] size[16728 B]
+Response Body: 90750 bytes
+report: url[https://10.0.0.4:8888/www/100kb.jpeg] timeUsage[%!s(int64=411) ms] size[90750 B]
+Response Body: 190660 bytes
+report: url[https://10.0.0.4:8888/www/200kb.jpeg] timeUsage[%!s(int64=653) ms] size[190660 B]
+Response Body: 826828 bytes
+report: url[https://10.0.0.4:8888/www/1mb.jpeg] timeUsage[%!s(int64=1725) ms] size[826828 B]
 Response Body: 10174706 bytes
-report: url[https://10.0.0.4:8888/10MB.jpg] timeUsage[%!s(int64=8645) ms] size[10174706 B]
-closed QUIC connection f28e2c45cd179645a04a3c
+report: url[https://10.0.0.4:8888/www/10mb.jpeg] timeUsage[%!s(int64=9578) ms] size[10174706 B]
+closed QUIC connection 9e35a09ff8952b765caadf818e

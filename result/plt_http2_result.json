@@ -1,17 +1,140 @@
-{
-    "url": "https://10.0.0.4:8080/welcome",
-    "averageLoadingTime": 7317.636728286743,
-    "resultSet": [
-        {
-            "loadingTime": 7317.636728286743,
-            "attempt_1": [
-                {
-                    "entryType": "navigation",
-                    "initiatorType": "navigation",
-                    "loadingTime": 3203.449999809265,
-                    "name": "https://10.0.0.4:8080/welcome"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "url": "https://10.0.0.4:8080/html/5kb.jpeg",
+        "averageLoadingTime": 149.17325973510742,
+        "resultSet": [
+            {
+                "loadingTime": 149.17325973510742,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 64.64999999990687,
+                        "name": "https://10.0.0.4:8080/html/5kb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 4.5,
+                        "name": "https://10.0.0.4:8080/www/5kb.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://10.0.0.4:8080/html/10kb.jpeg",
+        "averageLoadingTime": 22.284746170043945,
+        "resultSet": [
+            {
+                "loadingTime": 22.284746170043945,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 8.0,
+                        "name": "https://10.0.0.4:8080/html/10kb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 5.350000000093132,
+                        "name": "https://10.0.0.4:8080/www/10kb.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://10.0.0.4:8080/html/100kb.jpeg",
+        "averageLoadingTime": 84.68222618103027,
+        "resultSet": [
+            {
+                "loadingTime": 84.68222618103027,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 38.8499999998603,
+                        "name": "https://10.0.0.4:8080/html/100kb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 35.550000000046566,
+                        "name": "https://10.0.0.4:8080/www/100kb.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://10.0.0.4:8080/html/200kb.jpeg",
+        "averageLoadingTime": 174.18360710144043,
+        "resultSet": [
+            {
+                "loadingTime": 174.18360710144043,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 83.55000000004657,
+                        "name": "https://10.0.0.4:8080/html/200kb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 77.80000000004657,
+                        "name": "https://10.0.0.4:8080/www/200kb.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://10.0.0.4:8080/html/1mb.jpeg",
+        "averageLoadingTime": 702.681303024292,
+        "resultSet": [
+            {
+                "loadingTime": 702.681303024292,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 347.94999999995343,
+                        "name": "https://10.0.0.4:8080/html/1mb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 344.94999999995343,
+                        "name": "https://10.0.0.4:8080/www/1mb.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://10.0.0.4:8080/html/10mb.jpeg",
+        "averageLoadingTime": 18625.680208206177,
+        "resultSet": [
+            {
+                "loadingTime": 18625.680208206177,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 5951.34999999986,
+                        "name": "https://10.0.0.4:8080/html/10mb.jpeg"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 5208.65000000014,
+                        "name": "https://10.0.0.4:8080/www/10mb.jpeg"
+                    }
+                ]
+            }
+        ]
+    }
+]

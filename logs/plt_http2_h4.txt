@@ -7,9 +7,19 @@
 
 [GIN-debug] GET    /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
 [GIN-debug] HEAD   /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
-[GIN-debug] GET    /welcome                  --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /html/:filename           --> main.main.func1 (3 handlers)
 [GIN-debug] Listening and serving HTTPS on :8080
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-2023/12/29 15:28:54 http: TLS handshake error from 10.0.0.1:35788: remote error: tls: unknown certificate
-2023/12/29 15:28:54 http: TLS handshake error from 10.0.0.1:35786: remote error: tls: unknown certificate
+[GIN] 2023/12/30 - 12:01:55 | 200 |     819.925µs |        10.0.0.1 | GET      "/html/5kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |    5.494413ms |        10.0.0.1 | GET      "/www/5kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |      47.237µs |        10.0.0.1 | GET      "/html/10kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |     183.255µs |        10.0.0.1 | GET      "/www/10kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |      48.753µs |        10.0.0.1 | GET      "/html/100kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |     297.391µs |        10.0.0.1 | GET      "/www/100kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |      51.053µs |        10.0.0.1 | GET      "/html/200kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |   14.585198ms |        10.0.0.1 | GET      "/www/200kb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |      44.786µs |        10.0.0.1 | GET      "/html/1mb.jpeg"
+[GIN] 2023/12/30 - 12:01:55 | 200 |  178.143117ms |        10.0.0.1 | GET      "/www/1mb.jpeg"
+[GIN] 2023/12/30 - 12:01:56 | 200 |      45.709µs |        10.0.0.1 | GET      "/html/10mb.jpeg"
+[GIN] 2023/12/30 - 12:02:05 | 200 |  8.985571065s |        10.0.0.1 | GET      "/www/10mb.jpeg"

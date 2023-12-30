@@ -1,3 +1,19 @@
 http3 served on 0.0.0.0:8888
-started QUIC connection f28e2c45cd179645a04a3c
-closed QUIC connection f28e2c45cd179645a04a3c
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /test                     --> qperf-go/server.setupHandler.func1 (3 handlers)
+[GIN-debug] GET    /html/:filename           --> qperf-go/server.setupHandler.func2 (3 handlers)
+started QUIC connection 9e35a09ff8952b765caadf818e
+[GIN] 2023/12/30 - 12:02:16 | 200 |   43.872527ms |        10.0.0.1 | GET      "/www/5kb.jpeg"
+[GIN] 2023/12/30 - 12:02:16 | 200 |   63.258392ms |        10.0.0.1 | GET      "/www/10kb.jpeg"
+[GIN] 2023/12/30 - 12:02:16 | 200 |  304.765595ms |        10.0.0.1 | GET      "/www/100kb.jpeg"
+[GIN] 2023/12/30 - 12:02:17 | 200 |  546.502898ms |        10.0.0.1 | GET      "/www/200kb.jpeg"
+[GIN] 2023/12/30 - 12:02:18 | 200 |   1.59647244s |        10.0.0.1 | GET      "/www/1mb.jpeg"
+[GIN] 2023/12/30 - 12:02:26 | 200 |  9.446270115s |        10.0.0.1 | GET      "/www/10mb.jpeg"
+closed QUIC connection 9e35a09ff8952b765caadf818e

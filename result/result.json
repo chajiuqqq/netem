@@ -1,0 +1,378 @@
+[
+    {
+        "url": "https://stackoverflow.com/questions/69582773/get-all-loaded-website-resources-with-selenium",
+        "averageLoadingTime": 67664.89434242249,
+        "resultSet": [
+            {
+                "loadingTime": 67664.89434242249,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 33824.35000000009,
+                        "name": "https://stackoverflow.com/questions/69582773/get-all-loaded-website-resources-with-selenium"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 15739.09999999986,
+                        "name": "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 565.8999999999069,
+                        "name": "https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=d5f780ae3281"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 346.69999999995343,
+                        "name": "https://cdn.sstatic.net/Js/stub.en.js?v=af8bf5a55c16"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "link",
+                        "loadingTime": 550.6500000001397,
+                        "name": "https://cdn.sstatic.net/Shared/stacks.css?v=5d83236da4e2"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "link",
+                        "loadingTime": 335.44999999995343,
+                        "name": "https://cdn.sstatic.net/Shared/Channels/channels.css?v=64256d36becc"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "link",
+                        "loadingTime": 565.8500000000931,
+                        "name": "https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=e555aac91173"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 317.6500000001397,
+                        "name": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 16357.899999999907,
+                        "name": "https://i.stack.imgur.com/avS57.jpg?s=64&g=1"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 15809.800000000047,
+                        "name": "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 92.10000000009313,
+                        "name": "https://pagead2.googlesyndication.com/tag/js/gpt.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 53.949999999953434,
+                        "name": "https://pagead2.googlesyndication.com/pagead/managed/js/gpt/m202312060101/pubads_impl.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "fetch",
+                        "loadingTime": 110.55000000004657,
+                        "name": "https://pagead2.googlesyndication.com/gampad/ads?pvsid=11790106574665&correlator=2301968443776349&eid=31080122%2C44782500&output=ldjh&gdfp_req=1&vrg=202312060101&ptt=17&impl=fif&ltd=1&npa=1&iu_parts=248424177%2Cstackoverflow.com%2Csb%2Cquestion-pages&enc_prev_ius=%2F0%2F1%2F2%2F3&prev_iu_szs=300x250&ifi=1&sfv=1-0-40&fsfs=1&fsbs=1&sc=1&abxe=1&dt=1703907333208&lmt=1703907333&adxs=325&adys=490&biw=785&bih=600&scr_x=0&scr_y=0&btvi=0&ucis=1&oid=2&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=480&dmc=2&bc=31&nvt=1&uach=WyJMaW51eCIsIjQuMTkuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuMTI5IixudWxsLDAsbnVsbCwiNjQiLFtbIk5vdF9BIEJyYW5kIiwiOC4wLjAuMCJdLFsiQ2hyb21pdW0iLCIxMjAuMC42MDk5LjEyOSJdLFsiSGVhZGxlc3NDaHJvbWUiLCIxMjAuMC42MDk5LjEyOSJdXSwwXQ..&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F69582773%2Fget-all-loaded-website-resources-with-selenium&vis=1&psz=588x0&msz=300x0&fws=128&ohw=0&ga_vid=409496059.1703907333&ga_sid=1703907333&ga_hid=835254641&ga_fc=false&dlt=1703907301181&idt=31994&cust_params=Registered%3Dfalse%26so-tag%3Dpython%252Cselenium%26tag-reportable%3Dpython%252Cselenium%26NumberOfAnswers%3D1%26TargetingConsent%3DFalse_Passive%26Sidebar%3DInline&adks=3955168656&frm=20"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "fetch",
+                        "loadingTime": 115.14999999990687,
+                        "name": "https://pagead2.googlesyndication.com/gampad/ads?pvsid=11790106574665&correlator=2301968443776349&eid=31080122%2C44782500&output=ldjh&gdfp_req=1&vrg=202312060101&ptt=17&impl=fif&ltd=1&npa=1&iu_parts=248424177%2Cstackoverflow.com%2Cmsb%2Cquestion-pages&enc_prev_ius=%2F0%2F1%2F2%2F3&prev_iu_szs=300x250%7C300x600&ifi=2&sfv=1-0-40&fsfs=1&fsbs=1&sc=1&abxe=1&dt=1703907333237&lmt=1703907333&adxs=181&adys=1909&biw=785&bih=600&scr_x=0&scr_y=0&btvi=1&ucis=2&oid=2&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=480&dmc=2&bc=31&nvt=1&uach=WyJMaW51eCIsIjQuMTkuMCIsIng4NiIsIiIsIjEyMC4wLjYwOTkuMTI5IixudWxsLDAsbnVsbCwiNjQiLFtbIk5vdF9BIEJyYW5kIiwiOC4wLjAuMCJdLFsiQ2hyb21pdW0iLCIxMjAuMC42MDk5LjEyOSJdLFsiSGVhZGxlc3NDaHJvbWUiLCIxMjAuMC42MDk5LjEyOSJdXSwwXQ..&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F69582773%2Fget-all-loaded-website-resources-with-selenium&vis=1&psz=588x0&msz=300x0&fws=128&ohw=0&ga_vid=409496059.1703907333&ga_sid=1703907333&ga_hid=835254641&ga_fc=false&dlt=1703907301181&idt=31994&cust_params=Registered%3Dfalse%26so-tag%3Dpython%252Cselenium%26tag-reportable%3Dpython%252Cselenium%26NumberOfAnswers%3D1%26TargetingConsent%3DFalse_Passive%26Sidebar%3DInline&adks=3890135258&frm=20"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "iframe",
+                        "loadingTime": 87.25,
+                        "name": "https://86b0f02a9a36cd4de53ecfcbd26092af.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "iframe",
+                        "loadingTime": 3.199999999953434,
+                        "name": "https://86b0f02a9a36cd4de53ecfcbd26092af.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "iframe",
+                        "loadingTime": 2.050000000046566,
+                        "name": "https://86b0f02a9a36cd4de53ecfcbd26092af.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://www.baidu.com",
+        "averageLoadingTime": 469.0515995025635,
+        "resultSet": [
+            {
+                "loadingTime": 469.0515995025635,
+                "attempt_1": [
+                    {
+                        "entryType": "navigation",
+                        "initiatorType": "navigation",
+                        "loadingTime": 227.05000000004657,
+                        "name": "https://www.baidu.com/"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 72.1500000001397,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newfanyi-da0cea8f7e.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 76.44999999995343,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newxueshuicon-a5314d5c83.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 73.30000000004657,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newbaike-889054f349.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 74.35000000009313,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newzhidao-da1cf444b0.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 74.80000000004657,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/yingxiaoicon-612169cc36.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 75.80000000004657,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newjiankang-f03b804b4b.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 73.69999999995343,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newzhibo-a6a0831ecd.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 75.10000000009313,
+                        "name": "https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/newyinyue-03ecd1e9b9.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 5.699999999953434,
+                        "name": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 11.850000000093132,
+                        "name": "https://www.baidu.com/img/PCfb_5bf082d29588c07f842ccde3f97243ea.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 13.5,
+                        "name": "https://www.baidu.com/img/flexible/logo/pc/result.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 15.550000000046566,
+                        "name": "https://www.baidu.com/img/flexible/logo/pc/result@2.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 15.649999999906868,
+                        "name": "https://www.baidu.com/img/flexible/logo/pc/peak-result.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 41.199999999953434,
+                        "name": "https://pss.bdstatic.com/static/superman/img/qrcode/qrcode@2x-daf987ad02.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 41.35000000009313,
+                        "name": "https://pss.bdstatic.com/static/superman/img/qrcode/qrcode-hover@2x-f9b106a848.png"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 25.699999999953434,
+                        "name": "https://pss.bdstatic.com/static/superman/js/lib/jquery-1-edb203c114.10.2.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 29.149999999906868,
+                        "name": "https://pss.bdstatic.com/static/superman/js/lib/esl-d776bfb1aa.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 28.8499999998603,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/bundles/es6-polyfill_388d059.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 25.4000000001397,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/bundles/polyfill_9354efa.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 39.550000000046566,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/global/js/all_async_search_93737f2.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 36.949999999953434,
+                        "name": "https://pss.bdstatic.com/static/superman/js/sbase-65630eb62e.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "link",
+                        "loadingTime": 37.0999999998603,
+                        "name": "https://pss.bdstatic.com/static/superman/css/ubase_sync-d600f57804.css?v=md5"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 37.299999999813735,
+                        "name": "https://pss.bdstatic.com/static/superman/js/s_super_index-3fffae8d60.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 37.6500000001397,
+                        "name": "https://pss.bdstatic.com/static/superman/js/min_super-4131b401d8.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 37.800000000046566,
+                        "name": "https://pss.bdstatic.com/static/superman/js/components/hotsearch-5af0f864cf.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 47.0,
+                        "name": "https://hectorstatic.baidu.com/cd37ed75a9387c5b.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 6.550000000046566,
+                        "name": "https://pss.bdstatic.com/static/superman/amd_modules/tslib-c95383af0c.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 6.25,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 6.199999999953434,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/plugins/bzPopper_7bc4f0e.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 5.800000000046566,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/home/js/nu_instant_search_3cd3542.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 6.699999999953434,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/plugins/swfobject_0178953.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 6.849999999860302,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/soutu/js/tu_ba0fbe3.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 5.899999999906868,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/amd_modules/@baidu/search-sug_947981a.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 30.850000000093132,
+                        "name": "https://sp1.baidu.com/-L-Xsjip0QIZ8tyhnq/v.gif?logactid=1234567890&showTab=10000&opType=showpv&mod=superman%3Alib&submod=index&superver=supernewplus&glogid=2147605322&type=2011&pid=315&isLogin=0&version=PCHome&terminal=PC&qid=0x97ee4a760001db4a&sid=39938_40044&super_frm=&from_login=&from_reg=&query=&curcard=2&curcardtab=&_r=0.6914745769003399"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 33.549999999813735,
+                        "name": "https://sp1.baidu.com/-L-Xsjip0QIZ8tyhnq/v.gif?logactid=1234567890&showTab=10000&opType=nodepv&mod=superman%3Alib&submod=index&superver=supernewplus&glogid=2147605322&type=2011&pid=315&isLogin=0&version=PCHome&terminal=PC&qid=0x97ee4a760001db4a&sid=39938_40044&super_frm=&from_login=&from_reg=&query=&curcard=2&curcardtab=&_r=0.47662319934741104"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "img",
+                        "loadingTime": 35.800000000046566,
+                        "name": "https://sp2.baidu.com/-L-Ysjip0QIZ8tyhnq/v.gif?mod=superman%3Acomponents&submod=hotsearch&utype=undefined&superver=supernewplus&portrait=undefined&logPortrait=undefined&glogid=2147605322&type=2011&pid=315&isLogin=0&version=PCHome&terminal=PC&qid=0x97ee4a760001db4a&sid=39938_40044&super_frm=&from_login=&from_reg=&query=&curcard=2&curcardtab=&_r=0.11269837758835521&m=superman%3Acomponents_hotsearchShow&showType=hotword&words=%5B%22%E5%85%A8%E5%9B%BD%E6%94%BF%E5%8D%8F%E4%B8%BE%E8%A1%8C%E6%96%B0%E5%B9%B4%E8%8C%B6%E8%AF%9D%E4%BC%9A%22%2C%22%E8%87%B4%E6%95%AC%E6%AF%8F%E4%B8%AA2023%E7%9A%84%E5%A5%8B%E6%96%97%E8%80%85%22%2C%22%E5%A4%9A%E5%9C%B0%E5%A4%A7%E9%9B%BE%E8%83%BD%E8%A7%81%E5%BA%A6%E4%BD%8E%EF%BC%9A%E4%BC%B8%E6%89%8B%E4%B8%8D%E8%A7%81%E4%BA%94%E6%8C%87%22%2C%225%E5%B2%81%E5%AD%A9%E5%AD%90%E4%B8%8A%E8%AF%BE%E5%8F%91%E7%8E%B0%E5%AF%B9%E9%9D%A2%E7%9D%80%E7%81%AB%E5%A4%A7%E5%A3%B0%E6%8F%90%E9%86%92%22%2C%22%E5%85%83%E6%97%A6%E5%89%8D%E5%AD%A6%E6%A0%A1%E7%BB%84%E7%BB%87%E5%AD%A6%E7%94%9F%E5%90%83%E5%A4%A7%E5%B8%AD%22%2C%22%E7%BE%8E%E5%9B%BD%E5%8A%A1%E5%8D%BF%E7%BB%95%E8%BF%87%E5%9B%BD%E4%BC%9A%E6%89%B9%E5%87%86%E5%90%91%E4%BB%A5%E5%87%BA%E5%94%AE%E5%86%9B%E5%A4%87%22%5D&pagenum=0"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "css",
+                        "loadingTime": 57.050000000046566,
+                        "name": "https://pss.bdstatic.com/static/superman/font/iconfont-fa013548a9.woff2"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "script",
+                        "loadingTime": 49.39999999990687,
+                        "name": "https://hector.baidu.com/a.js"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "link",
+                        "loadingTime": 5.949999999953434,
+                        "name": "https://pss.bdstatic.com/r/www/cache/static/protocol/https/soutu/css/soutu_new2_e1a824c.css"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "xmlhttprequest",
+                        "loadingTime": 6.5,
+                        "name": "https://www.baidu.com/sugrec?&prod=pc_his&from=pc_web&json=1&sid=&hisdata=&_t=1703907368157&req=2&csor=0"
+                    },
+                    {
+                        "entryType": "resource",
+                        "initiatorType": "css",
+                        "loadingTime": 5.800000000046566,
+                        "name": "https://pss.bdstatic.com/static/superman/img/searchbox/nicon-10750f3f7d.png"
+                    }
+                ]
+            }
+        ]
+    }
+]
