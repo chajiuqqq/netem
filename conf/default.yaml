@@ -1,0 +1,20 @@
+tests:
+  video_stream:
+    params:
+      name: video_stream
+      mpd: /www/video/20mins/20mins.mpd
+      duration: 60
+      eachSegDuration: 5
+  plt:
+    params:
+      name: plt
+  throughput:
+    params:
+      name: throughput
+  fairness:
+    params:
+      name: fairness
+      n_tcp_streams: 1
+  quic_std:
+    params:
+      name: quic_std
