@@ -84,7 +84,7 @@ def plot_video_stream(params):
         'type':[]
     }
    #1. 读取日志，并解析出bufferLength sec
-    with open('logs/video_stream_http2_h1.txt', 'r') as file:
+    with open(f'logs/video_stream_{params["play_strategy"]}_http2_h1.txt', 'r') as file:
         for line in file:
             if line.startswith('{'):
                 line_obj = json.loads(line)
@@ -92,7 +92,7 @@ def plot_video_stream(params):
                     log_dict['second'].append(line_obj['sec'])
                     log_dict['buffer_length'].append(line_obj['dp.BufferLength'])
                     log_dict['type'].append('h2')
-    with open('logs/video_stream_quic_h1.txt', 'r') as file:
+    with open(f'logs/video_stream_{params["play_strategy"]}_quic_h1.txt', 'r') as file:
         for line in file:
             if line.startswith('{'):
                 line_obj = json.loads(line)
@@ -101,10 +101,12 @@ def plot_video_stream(params):
                     log_dict['buffer_length'].append(line_obj['dp.BufferLength'])
                     log_dict['type'].append('quic')
     print(log_dict)
-
+    totalDuration = len(log_dict['second'])/2
     df = pd.DataFrame(log_dict)
+    # 去除头尾的10s
+    filtered_df = df[(df['second'] >= 10) & (df['second'] <= totalDuration-10)]
     # 3. 画图
-    p = ggplot(df,aes(x='second', y='buffer_length',color='type')) +\
+    p = ggplot(filtered_df,aes(x='second', y='buffer_length',color='type')) +\
             geom_point() +\
               geom_line()+\
                 ylab('buffer_length(s)')+\

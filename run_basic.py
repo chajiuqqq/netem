@@ -26,7 +26,10 @@ class DumbbellTopo(Topo):
         self.addLink(leftHost2, leftSwitch)
         self.addLink(rightHost1, rightSwitch)
         self.addLink(rightHost2, rightSwitch)
-        self.addLink(leftSwitch, rightSwitch,bw=10,loss=0,delay=10)
+        self.addLink(leftSwitch, rightSwitch,
+                     bw=conf['mn']['bw'],
+                     loss=conf['mn']['loss'],
+                     delay=conf['mn']['delay'])
 
 def run_tcp_test(net,test_prefix,duration,n_tcp_streams=1):
     h1 = net.get('h1')
@@ -151,7 +154,7 @@ def run_stream_test(net):
     # tcp
     h2_mpd = f'https://{h4.IP()}:8080{params["mpd"]}'
     h4.cmd(f'''./bin/http2 --cert server.crt --key server.key &> {log_dir}/{params['name']}_http2_h4.txt &''')
-    h1.cmd(f'''./bin/dashquic -m {h2_mpd} -r 1 -v -n {maxSegNum} -f {log_dir}/STREAM/h2/ -h2 &> {log_dir}/{params['name']}_http2_h1.txt &''')
+    h1.cmd(f'''./bin/dashquic -p {params['play_strategy']} -m {h2_mpd} -r 1 -v -n {maxSegNum} -f {log_dir}/STREAM/h2/ -h2 &> {log_dir}/{params['name']}_{params['play_strategy']}_http2_h1.txt &''')
     h1.cmd('wait')
 
     print('end h2 stream test')
@@ -160,7 +163,7 @@ def run_stream_test(net):
     print('start quic stream test')
     quic_mpd = f'https://{h4.IP()}:8888{params["mpd"]}'
     h4.cmd(f'''./bin/qperf-go server --port=8888 --http3 --www www &> {log_dir}/{params['name']}_quic_h4.txt &''')
-    h1.cmd(f'''./bin/dashquic -m {quic_mpd} -r 1 -v -n {maxSegNum} -f {log_dir}/STREAM/quic/ -quic &> {log_dir}/{params['name']}_quic_h1.txt &''')
+    h1.cmd(f'''./bin/dashquic -p {params['play_strategy']} -m {quic_mpd} -r 1 -v -n {maxSegNum} -f {log_dir}/STREAM/quic/ -quic &> {log_dir}/{params['name']}_{params['play_strategy']}_quic_h1.txt &''')
     h1.cmd('wait')
     print('end quic stream test')
 
@@ -213,7 +216,7 @@ def main():
         run_fairness_test(net)
         plot(conf['tests'][args.test]['params']['name'])
     if args.test == 'video':
-        # run_stream_test(net)
+        run_stream_test(net)
         plot_video_stream(conf['tests']['video_stream']['params'])
 
     # CLI(net)

@@ -3,8 +3,9 @@ tests:
     params:
       name: video_stream
       mpd: /www/video/20mins/20mins.mpd
-      duration: 60
+      duration: 100
       eachSegDuration: 5
+      play_strategy: netflix
   plt:
     params:
       name: plt
@@ -18,3 +19,7 @@ tests:
   quic_std:
     params:
       name: quic_std
+mn:
+  bw: 1
+  loss: 1
+  delay: 10
