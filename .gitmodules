@@ -10,3 +10,6 @@
 [submodule "submod/GoDashPlayer"]
 	path = submod/GoDashPlayer
 	url = git@github.com:chajiuqqq/GoDashPlayer.git
+[submodule "submod/mininet"]
+	path = submod/mininet
+	url = git@github.com:mininet/mininet.git

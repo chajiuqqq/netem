@@ -8,6 +8,14 @@
 
 # QUIC
 
+## throughout
+
+```
+./bin/qperf-go server --port=8080 
+./bin/qperf-go client --log-prefix {test_prefix} --addr="{h4.IP()}:8080" --t={duration} 
+```
+
+## http3 plt test
 启动http3:
 ```
 ./bin/qperf-go server --port=8888 --http3 --www www 

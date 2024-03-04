@@ -1,0 +1,4 @@
+{"jumpSecondsArgs":null,"level":"info","msg":"DASH_CLIENT:","time":"2024-02-19T13:20:02+08:00"}
+{"level":"info","mpdFile":"https://10.0.0.4:8080/www/video/20mins/20mins.mpd","msg":"DASH_CLIENT: Downloading MPD file","time":"2024-02-19T13:20:02+08:00"}
+{"jumpSecondsArgs":null,"level":"info","msg":"DASH_CLIENT:","time":"2024-02-19T13:20:02+08:00"}
+{"level":"info","mpdFile":"https://10.0.0.4:8888/www/video/20mins/20mins.mpd","msg":"DASH_CLIENT: Downloading MPD file","time":"2024-02-19T13:20:02+08:00"}

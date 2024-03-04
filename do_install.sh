@@ -4,10 +4,9 @@ git submodule update --init --recursive
 PWD=$(pwd)
 cd submod/mininet/util 
 sh ./install.sh
+
 # install go
 rm -rf /usr/local/go && wget https://go.dev/dl/go1.20.12.linux-amd64.tar.gz && tar -C /usr/local -xzf go1.20.12.linux-amd64.tar.gz && rm go1.20.12.linux-amd64.tar.gz
-
-
 
 # install qperf
 export GOPROXY=https://goproxy.io,direct

@@ -1,66 +1,66 @@
-[throughput] started QUIC connection a5d963af569e05119e4f
-[throughput] connection establishment time: 25.48 ms
-[throughput] time to first byte: 26.25 ms
-[throughput] second 1: 9.5 Mbit/s, bytes received: 1.18791 MB, packets received: 938
-[throughput] second 2: 9.51 Mbit/s, bytes received: 1.189768 MB, packets received: 858
-[throughput] second 3: 9.52 Mbit/s, bytes received: 1.19096 MB, packets received: 855
-[throughput] second 4: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 855
-[throughput] second 5: 9.54 Mbit/s, bytes received: 1.193781 MB, packets received: 856
-[throughput] second 6: 9.53 Mbit/s, bytes received: 1.191459 MB, packets received: 855
-[throughput] second 7: 9.54 Mbit/s, bytes received: 1.193781 MB, packets received: 856
-[throughput] second 8: 9.53 Mbit/s, bytes received: 1.192381 MB, packets received: 855
-[throughput] second 9: 9.53 Mbit/s, bytes received: 1.192367 MB, packets received: 856
-[throughput] second 10: 9.54 Mbit/s, bytes received: 1.193774 MB, packets received: 855
-[throughput] second 11: 9.53 Mbit/s, bytes received: 1.192887 MB, packets received: 856
-[throughput] second 12: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 13: 9.53 Mbit/s, bytes received: 1.193788 MB, packets received: 858
-[throughput] second 14: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 15: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 16: 9.53 Mbit/s, bytes received: 1.192859 MB, packets received: 856
-[throughput] second 17: 9.54 Mbit/s, bytes received: 1.193795 MB, packets received: 856
-[throughput] second 18: 9.54 Mbit/s, bytes received: 1.193781 MB, packets received: 856
-[throughput] second 19: 9.54 Mbit/s, bytes received: 1.193789 MB, packets received: 856
-[throughput] second 20: 9.54 Mbit/s, bytes received: 1.192872 MB, packets received: 857
-[throughput] second 21: 9.53 Mbit/s, bytes received: 1.192374 MB, packets received: 855
-[throughput] second 22: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 23: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 24: 9.54 Mbit/s, bytes received: 1.193781 MB, packets received: 856
-[throughput] second 25: 9.54 Mbit/s, bytes received: 1.192873 MB, packets received: 856
-[throughput] second 26: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 27: 9.53 Mbit/s, bytes received: 1.192374 MB, packets received: 855
-[throughput] second 28: 9.54 Mbit/s, bytes received: 1.193775 MB, packets received: 856
-[throughput] second 29: 9.53 Mbit/s, bytes received: 1.193794 MB, packets received: 857
-[throughput] second 30: 9.53 Mbit/s, bytes received: 1.192873 MB, packets received: 856
-[throughput] second 31: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 32: 9.53 Mbit/s, bytes received: 1.192367 MB, packets received: 855
-[throughput] second 33: 9.54 Mbit/s, bytes received: 1.193781 MB, packets received: 856
-[throughput] second 34: 9.53 Mbit/s, bytes received: 1.192381 MB, packets received: 856
-[throughput] second 35: 9.54 Mbit/s, bytes received: 1.192873 MB, packets received: 855
-[throughput] second 36: 9.53 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 37: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 38: 9.54 Mbit/s, bytes received: 1.193779 MB, packets received: 856
-[throughput] second 39: 9.53 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 40: 9.54 Mbit/s, bytes received: 1.192875 MB, packets received: 856
-[throughput] second 41: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 42: 9.54 Mbit/s, bytes received: 1.19377 MB, packets received: 856
-[throughput] second 43: 9.52 Mbit/s, bytes received: 1.192383 MB, packets received: 855
-[throughput] second 44: 9.53 Mbit/s, bytes received: 1.192875 MB, packets received: 856
-[throughput] second 45: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 46: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 47: 9.52 Mbit/s, bytes received: 1.192374 MB, packets received: 855
-[throughput] second 48: 9.53 Mbit/s, bytes received: 1.193779 MB, packets received: 856
-[throughput] second 49: 9.53 Mbit/s, bytes received: 1.192875 MB, packets received: 856
-[throughput] second 50: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 51: 9.53 Mbit/s, bytes received: 1.192374 MB, packets received: 855
-[throughput] second 52: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 53: 9.53 Mbit/s, bytes received: 1.192366 MB, packets received: 857
-[throughput] second 54: 9.54 Mbit/s, bytes received: 1.192874 MB, packets received: 856
-[throughput] second 55: 9.53 Mbit/s, bytes received: 1.192374 MB, packets received: 857
-[throughput] second 56: 9.54 Mbit/s, bytes received: 1.193788 MB, packets received: 855
-[throughput] second 57: 9.53 Mbit/s, bytes received: 1.192365 MB, packets received: 857
-[throughput] second 58: 9.53 Mbit/s, bytes received: 1.193788 MB, packets received: 856
-[throughput] second 59: 9.53 Mbit/s, bytes received: 1.192875 MB, packets received: 856
-[throughput] second 60: 9.53 Mbit/s, bytes received: 1.192374 MB, packets received: 856
-[throughput] closed QUIC connection a5d963af569e05119e4f
-[throughput] total: bytes received: 71.585108 MB, packets received: 51439
-[throughput] export states success:result/qperf_throughput_result.json
+[throughput] started QUIC connection 27bf7516b9512c921ecc387deee573bc
+[throughput] connection establishment time: 23.72 ms
+[throughput] time to first byte: 24.48 ms
+[throughput] second 1: 8.91 Mbit/s, bytes received: 1.115526 MB, packets received: 843
+[throughput] second 2: 8.71 Mbit/s, bytes received: 1.08957 MB, packets received: 785
+[throughput] second 3: 8.44 Mbit/s, bytes received: 1.05565 MB, packets received: 757
+[throughput] second 4: 7.96 Mbit/s, bytes received: 997.18 kB, packets received: 725
+[throughput] second 5: 9.28 Mbit/s, bytes received: 1.161268 MB, packets received: 840
+[throughput] second 6: 8.91 Mbit/s, bytes received: 1.114108 MB, packets received: 799
+[throughput] second 7: 8.09 Mbit/s, bytes received: 1.011822 MB, packets received: 739
+[throughput] second 8: 9.04 Mbit/s, bytes received: 1.13106 MB, packets received: 814
+[throughput] second 9: 9.08 Mbit/s, bytes received: 1.136748 MB, packets received: 820
+[throughput] second 10: 8.05 Mbit/s, bytes received: 1.00757 MB, packets received: 732
+[throughput] second 11: 8.76 Mbit/s, bytes received: 1.096652 MB, packets received: 791
+[throughput] second 12: 8.8 Mbit/s, bytes received: 1.101386 MB, packets received: 797
+[throughput] second 13: 9.03 Mbit/s, bytes received: 1.131072 MB, packets received: 817
+[throughput] second 14: 6.8 Mbit/s, bytes received: 850.564 kB, packets received: 617
+[throughput] second 15: 9.04 Mbit/s, bytes received: 1.131572 MB, packets received: 822
+[throughput] second 16: 9.09 Mbit/s, bytes received: 1.138148 MB, packets received: 820
+[throughput] second 17: 9.49 Mbit/s, bytes received: 1.186708 MB, packets received: 860
+[throughput] second 18: 9.03 Mbit/s, bytes received: 1.131082 MB, packets received: 813
+[throughput] second 19: 9.29 Mbit/s, bytes received: 1.162684 MB, packets received: 839
+[throughput] second 20: 8.01 Mbit/s, bytes received: 1.002842 MB, packets received: 735
+[throughput] second 21: 8.99 Mbit/s, bytes received: 1.124508 MB, packets received: 803
+[throughput] second 22: 8.2 Mbit/s, bytes received: 1.025448 MB, packets received: 746
+[throughput] second 23: 8.9 Mbit/s, bytes received: 1.114114 MB, packets received: 802
+[throughput] second 24: 8.98 Mbit/s, bytes received: 1.12402 MB, packets received: 810
+[throughput] second 25: 9.09 Mbit/s, bytes received: 1.137228 MB, packets received: 821
+[throughput] second 26: 9.02 Mbit/s, bytes received: 1.128252 MB, packets received: 813
+[throughput] second 27: 7.66 Mbit/s, bytes received: 959.002 kB, packets received: 695
+[throughput] second 28: 8.79 Mbit/s, bytes received: 1.09947 MB, packets received: 801
+[throughput] second 29: 9.31 Mbit/s, bytes received: 1.164094 MB, packets received: 833
+[throughput] second 30: 8.08 Mbit/s, bytes received: 1.011822 MB, packets received: 735
+[throughput] second 31: 9.05 Mbit/s, bytes received: 1.132494 MB, packets received: 818
+[throughput] second 32: 9.15 Mbit/s, bytes received: 1.14522 MB, packets received: 830
+[throughput] second 33: 9.09 Mbit/s, bytes received: 1.137228 MB, packets received: 824
+[throughput] second 34: 8.74 Mbit/s, bytes received: 1.093818 MB, packets received: 792
+[throughput] second 35: 9.17 Mbit/s, bytes received: 1.148546 MB, packets received: 829
+[throughput] second 36: 8.62 Mbit/s, bytes received: 1.078262 MB, packets received: 777
+[throughput] second 37: 9 Mbit/s, bytes received: 1.127338 MB, packets received: 813
+[throughput] second 38: 8.87 Mbit/s, bytes received: 1.109366 MB, packets received: 797
+[throughput] second 39: 9.31 Mbit/s, bytes received: 1.165512 MB, packets received: 841
+[throughput] second 40: 9.12 Mbit/s, bytes received: 1.141468 MB, packets received: 824
+[throughput] second 41: 9.3 Mbit/s, bytes received: 1.163604 MB, packets received: 839
+[throughput] second 42: 8.65 Mbit/s, bytes received: 1.081584 MB, packets received: 779
+[throughput] second 43: 8.92 Mbit/s, bytes received: 1.115532 MB, packets received: 804
+[throughput] second 44: 7.82 Mbit/s, bytes received: 978.806 kB, packets received: 709
+[throughput] second 45: 9.21 Mbit/s, bytes received: 1.153684 MB, packets received: 832
+[throughput] second 46: 9.55 Mbit/s, bytes received: 1.1943 MB, packets received: 861
+[throughput] second 47: 9 Mbit/s, bytes received: 1.125416 MB, packets received: 815
+[throughput] second 48: 7.9 Mbit/s, bytes received: 988.694 kB, packets received: 715
+[throughput] second 49: 8.32 Mbit/s, bytes received: 1.041516 MB, packets received: 762
+[throughput] second 50: 9.32 Mbit/s, bytes received: 1.166922 MB, packets received: 841
+[throughput] second 51: 9.54 Mbit/s, bytes received: 1.193752 MB, packets received: 863
+[throughput] second 52: 8.61 Mbit/s, bytes received: 1.078294 MB, packets received: 778
+[throughput] second 53: 8.47 Mbit/s, bytes received: 1.060392 MB, packets received: 766
+[throughput] second 54: 8.64 Mbit/s, bytes received: 1.081088 MB, packets received: 778
+[throughput] second 55: 8.29 Mbit/s, bytes received: 1.037266 MB, packets received: 755
+[throughput] second 56: 9.58 Mbit/s, bytes received: 1.198038 MB, packets received: 858
+[throughput] second 57: 8.92 Mbit/s, bytes received: 1.11693 MB, packets received: 805
+[throughput] second 58: 8.29 Mbit/s, bytes received: 1.037264 MB, packets received: 749
+[throughput] second 59: 9.31 Mbit/s, bytes received: 1.164104 MB, packets received: 836
+[throughput] second 60: 9.09 Mbit/s, bytes received: 1.13815 MB, packets received: 821
+[throughput] closed QUIC connection 27bf7516b9512c921ecc387deee573bc
+[throughput] total: bytes received: 66.035758 MB, packets received: 47735
+[throughput] export states success:result/throughput_quic.json
