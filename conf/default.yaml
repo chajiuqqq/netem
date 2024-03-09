@@ -20,6 +20,6 @@ tests:
     params:
       name: quic_std
 mn:
-  bw: 1
+  bw: 10
   loss: 1
   delay: 10
