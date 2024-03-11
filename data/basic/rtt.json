@@ -1,0 +1,28 @@
+{
+    "save_name": "rtt.png",
+    "ylabel": "RTT (ms)",
+    "ylim_low": 0,
+    "ylim_high": 100,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            20.67,
+            60.09,
+            64.01
+        ],
+        "DCM-QUIC": [
+            11.87,
+            64.11,
+            56.01
+        ],
+        "QUIC-Cubic": [
+            12.56,
+            54.13,
+            59.01
+        ]
+    }
+}

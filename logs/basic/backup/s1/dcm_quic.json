@@ -1,0 +1,92 @@
+[
+	{
+		"RateBits": 83977861.88306977,
+		"Bytes": 10498486,
+		"Second": 1,
+		"Packets": 0
+	},
+	{
+		"RateBits": 86396423.32443126,
+		"Bytes": 10807784,
+		"Second": 2,
+		"Packets": 0
+	},
+	{
+		"RateBits": 83512916.47124161,
+		"Bytes": 10447080,
+		"Second": 3,
+		"Packets": 0
+	},
+	{
+		"RateBits": 84634288.60083516,
+		"Bytes": 10582906,
+		"Second": 4,
+		"Packets": 0
+	},
+	{
+		"RateBits": 82802703.5366174,
+		"Bytes": 10352772,
+		"Second": 5,
+		"Packets": 0
+	},
+	{
+		"RateBits": 85750186.03479725,
+		"Bytes": 10721032,
+		"Second": 6,
+		"Packets": 0
+	},
+	{
+		"RateBits": 84422687.26350123,
+		"Bytes": 10558368,
+		"Second": 7,
+		"Packets": 0
+	},
+	{
+		"RateBits": 83682022.06598325,
+		"Bytes": 10467378,
+		"Second": 8,
+		"Packets": 0
+	},
+	{
+		"RateBits": 85136417.4069943,
+		"Bytes": 10645112,
+		"Second": 9,
+		"Packets": 0
+	},
+	{
+		"RateBits": 81834162.75262758,
+		"Bytes": 10241090,
+		"Second": 10,
+		"Packets": 0
+	},
+	{
+		"RateBits": 86047901.42875215,
+		"Bytes": 10787496,
+		"Second": 11,
+		"Packets": 0
+	},
+	{
+		"RateBits": 84435679.95579605,
+		"Bytes": 10575826,
+		"Second": 12,
+		"Packets": 0
+	},
+	{
+		"RateBits": 86735849.1769528,
+		"Bytes": 10844534,
+		"Second": 13,
+		"Packets": 0
+	},
+	{
+		"RateBits": 83479810.86821496,
+		"Bytes": 10440020,
+		"Second": 14,
+		"Packets": 0
+	},
+	{
+		"RateBits": 84597790.98356621,
+		"Bytes": 10580068,
+		"Second": 15,
+		"Packets": 0
+	}
+]

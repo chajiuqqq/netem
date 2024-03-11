@@ -1,0 +1,28 @@
+{
+    "save_name": "throughput.png",
+    "ylabel": "Throughput (Mbps)",
+    "ylim_low": 0,
+    "ylim_high": 120,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            40,
+            18,
+            33
+        ],
+        "DCM-QUIC": [
+            100,
+            33,
+            35
+        ],
+        "QUIC-Cubic": [
+            95,
+            31,
+            28
+        ]
+    }
+}

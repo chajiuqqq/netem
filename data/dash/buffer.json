@@ -1,0 +1,28 @@
+{
+    "save_name": "buffer.png",
+    "ylabel": "Buffer Time (s)",
+    "ylim_low": 0,
+    "ylim_high": 40,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            22,
+            18,
+            33
+        ],
+        "DCM-QUIC": [
+            10,
+            15,
+            12
+        ],
+        "QUIC-Cubic": [
+            15,
+            18,
+            16
+        ]
+    }
+}

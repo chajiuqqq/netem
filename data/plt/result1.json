@@ -1,0 +1,44 @@
+{
+    "save_name": "DCM_vs_QUIC.png",
+    "x_labels": [
+        "5kb",
+        "10kb",
+        "100kb",
+        "200kb",
+        "500kb",
+        "1mb",
+        "10mb"
+    ],
+    "y_labels": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "value1": [
+        22,
+        12,
+        15,
+        13,
+        10,
+        9,
+        3
+    ],
+    "value2": [
+        33,
+        15,
+        11,
+        9,
+        12,
+        6,
+        5
+    ],
+    "value3": [
+        22,
+        19,
+        17,
+        15,
+        5,
+        4,
+        2
+    ]
+}

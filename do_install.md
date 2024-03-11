@@ -4,7 +4,7 @@ git submodule update --init --recursive
 **更新子模块**
 git submodule update --remote
 
-### install mininet
+**install mininet**
 
 **A. install mininet;should installed in /root**
 cd /root && git clone https://github.com/mininet/mininet.git
@@ -29,3 +29,6 @@ ln /usr/bin/google-chrome-stable /usr/bin/google-chrome
 
 **run page loading time tester**
 python3 submod/pageloading-tester/src/main.py bin/chromedriver https://www.baidu.com/ performance.json
+
+**install python env**
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple

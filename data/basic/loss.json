@@ -1,0 +1,28 @@
+{
+    "save_name": "loss.png",
+    "ylabel": "Packet Loss Rate (%)",
+    "ylim_low": 0,
+    "ylim_high": 10,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            0.12,
+            3.15,
+            2.23
+        ],
+        "DCM-QUIC": [
+            0.15,
+            2.5,
+            5.2
+        ],
+        "QUIC-Cubic": [
+            0.03,
+            2.2,
+            5.15
+        ]
+    }
+}

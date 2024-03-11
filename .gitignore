@@ -1,4 +1,3 @@
 netem
 www
-logs
-python-env
+pyenv

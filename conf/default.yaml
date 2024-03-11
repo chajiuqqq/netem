@@ -1,7 +1,7 @@
 tests:
-  video_stream:
+  dash:
     params:
-      name: video_stream
+      name: dash
       mpd: /www/video/20mins/20mins.mpd
       duration: 100
       eachSegDuration: 5
@@ -9,17 +9,20 @@ tests:
   plt:
     params:
       name: plt
-  throughput:
+  basic:
     params:
-      name: throughput
+      name: basic
+      duration: 15
+      n_tcp_streams: 1
+      report_interval: 0.5
   fairness:
     params:
       name: fairness
       n_tcp_streams: 1
-  quic_std:
+  init:
     params:
-      name: quic_std
+      name: init
 mn:
-  bw: 10
-  loss: 1
-  delay: 10
+  bw: 100
+  loss: 0
+  delay: 2.5

@@ -1,0 +1,28 @@
+{
+    "save_name": "latency.png",
+    "ylabel": "Latency (ms)",
+    "ylim_low": 0,
+    "ylim_high": 100,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            1.2,
+            18,
+            22
+        ],
+        "DCM-QUIC": [
+            1.02,
+            10,
+            12
+        ],
+        "QUIC-Cubic": [
+            1.1,
+            18,
+            16
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "save_name": "cwnd.png",
+    "ylabel": "CWND (MB)",
+    "ylim_low": 0,
+    "ylim_high": 5,
+    "scenarios": [
+        "Setting I",
+        "Setting II",
+        "Setting III"
+    ],
+    "values": {
+        "TCP-Cubic": [
+            0.5,
+            2.01,
+            1.13
+        ],
+        "DCM-QUIC": [
+            0.8,
+            2.13,
+            1.15
+        ],
+        "QUIC-Cubic": [
+            0.6,
+            2.15,
+            0.92
+        ]
+    }
+}
