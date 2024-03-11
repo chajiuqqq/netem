@@ -2,8 +2,8 @@ tests:
   dash:
     params:
       name: dash
-      mpd: /www/video/20mins/20mins.mpd
-      duration: 100
+      mpd: /www/20min/20min.mpd
+      duration: 60
       eachSegDuration: 5
       play_strategy: netflix
   plt:
@@ -23,6 +23,6 @@ tests:
     params:
       name: init
 mn:
-  bw: 100
-  loss: 0
-  delay: 2.5
+  bw: 10
+  loss: 1
+  delay: 25

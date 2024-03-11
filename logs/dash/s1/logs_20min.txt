@@ -1,0 +1,312 @@
+{"jumpSecondsArgs":null,"level":"info","msg":"DASH_CLIENT:","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","mpdFile":"https://10.0.0.4:8080/www/20min/20min.mpd","msg":"DASH_CLIENT: Downloading MPD file","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","mpdFile":"logs/dash/TEMP_55918/20min.mpd","msg":"DASH_CLIENT: Downloaded MPD file","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","mpdFile":"logs/dash/TEMP_55918/20min.mpd","msg":"DASH_CLIENT: Reading MPD file","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: MPD file DASH media video","representation count":2,"time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Starting BASIC playback","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_PLAYER: Initializing the Buffer","time":"2024-03-11T12:10:11-07:00"}
+{"Alpha":5,"Beta":10,"InitialBuffer":1,"MaxBufferSize ":32,"PlaybackDuration":75635,"SegmentDuration":5,"level":"info","msg":"DASH_PLAYER: Video Info","time":"2024-03-11T12:10:11-07:00"}
+{"from":"INITIALIZED","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:10:11-07:00","to":"INITIAL_BUFFERING"}
+{"level":"info","msg":"DASH_PLAYER: Starting the Player","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","localTempFolder":"logs/dash/TEMP_55918/","msg":"DASH_CLIENT: The segments are stored in folder","time":"2024-03-11T12:10:11-07:00"}
+{"PlaybackDuration":75635,"level":"info","msg":"DASH_PLAYER: Initialized player with video length","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":1,"time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/init.mp4","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/init.mp4","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":1,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.32","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"1","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":1,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"initialWait":0.019999980926513672,"level":"info","msg":"DASH_PLAYER: Initial Waiting Time","time":"2024-03-11T12:10:11-07:00"}
+{"from":"INITIAL_BUFFERING","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:10:11-07:00","to":"PLAY"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":-5,"dp.Playback Duration":75635,"dp.Playback Time":0,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:11-07:00"}
+{"Bitrate":"420217","Playback Time":0,"Segment":"1","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":2,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":2,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-1.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-1.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":2,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.32","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"2","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":2,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":3,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":3,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-2.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-2.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":3,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.32","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"3","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":3,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":4,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":4,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-3.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-3.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":4,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.32","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"4","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":4,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":5,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":5,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-4.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-4.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":5,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.32","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"5","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":5,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":6,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":6,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-5.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-5.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":6,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.33","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"6","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.01","segmentNumber":6,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":7,"time":"2024-03-11T12:10:11-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:11-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":7,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8080/www/video/20mins/video/avc1/1/seg-6.m4s","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_55918/seg-6.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":7,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184212.33","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"7","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":7,"segmentSize":"0.00","time":"2024-03-11T12:10:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":8,"time":"2024-03-11T12:10:11-07:00"}
+{"SegmentLimit":7,"level":"info","msg":"DASH_CLIENT: Segment limit reached. Downloading segments will stop... ","time":"2024-03-11T12:10:11-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":0,"time":"2024-03-11T12:10:12-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:12-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":1,"time":"2024-03-11T12:10:13-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:13-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":2,"time":"2024-03-11T12:10:14-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:14-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":3,"time":"2024-03-11T12:10:15-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:15-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":5,"dp.Playback Duration":75635,"dp.Playback Time":5,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:16-07:00"}
+{"Bitrate":"420217","Playback Time":5,"Segment":"2","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:16-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":4,"time":"2024-03-11T12:10:16-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:16-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":5,"time":"2024-03-11T12:10:17-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:17-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:18-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":6,"time":"2024-03-11T12:10:18-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":7,"time":"2024-03-11T12:10:19-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:19-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":8,"time":"2024-03-11T12:10:20-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:20-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":10,"dp.Playback Duration":75635,"dp.Playback Time":10,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:21-07:00"}
+{"Bitrate":"420217","Playback Time":10,"Segment":"3","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:21-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":9,"time":"2024-03-11T12:10:21-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:21-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":10,"time":"2024-03-11T12:10:22-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:22-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":11,"time":"2024-03-11T12:10:23-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:23-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":12,"time":"2024-03-11T12:10:24-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:24-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":13,"time":"2024-03-11T12:10:25-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:25-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":15,"dp.Playback Duration":75635,"dp.Playback Time":15,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:26-07:00"}
+{"Bitrate":"420217","Playback Time":15,"Segment":"4","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:26-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:26-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":14,"time":"2024-03-11T12:10:26-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":15,"time":"2024-03-11T12:10:27-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:27-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":16,"time":"2024-03-11T12:10:28-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:28-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":17,"time":"2024-03-11T12:10:29-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:29-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":18,"time":"2024-03-11T12:10:30-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:30-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":20,"dp.Playback Duration":75635,"dp.Playback Time":20,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:31-07:00"}
+{"Bitrate":"420217","Playback Time":20,"Segment":"5","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:31-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":19,"time":"2024-03-11T12:10:31-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:31-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":20,"time":"2024-03-11T12:10:32-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:32-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":21,"time":"2024-03-11T12:10:33-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:33-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":22,"time":"2024-03-11T12:10:34-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:34-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":23,"time":"2024-03-11T12:10:35-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:35-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":25,"dp.Playback Duration":75635,"dp.Playback Time":25,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:36-07:00"}
+{"Bitrate":"420217","Playback Time":25,"Segment":"6","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:36-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":24,"time":"2024-03-11T12:10:36-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:36-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":25,"time":"2024-03-11T12:10:37-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:37-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":26,"time":"2024-03-11T12:10:38-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:38-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":27,"time":"2024-03-11T12:10:39-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:39-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":28,"time":"2024-03-11T12:10:40-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:40-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":30,"dp.Playback Duration":75635,"dp.Playback Time":30,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:41-07:00"}
+{"Bitrate":"420217","Playback Time":30,"Segment":"7","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:41-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":29,"time":"2024-03-11T12:10:41-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:41-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":30,"time":"2024-03-11T12:10:42-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:43-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":31,"time":"2024-03-11T12:10:43-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:44-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":32,"time":"2024-03-11T12:10:44-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:45-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":33,"time":"2024-03-11T12:10:45-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:46-07:00"}
+{"SegmentLimit":7,"level":"info","msg":"DASH_PLAYER: Segment limit reached, Player will stop ","segmentNumber":7,"time":"2024-03-11T12:10:46-07:00"}
+{"from":"PLAY","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:10:46-07:00","to":"STOP"}
+{"dp.BufferLength":0,"dp.PlaybackState":"STOP","level":"info","msg":"DASH_PLAYER: Player State","sec":34,"time":"2024-03-11T12:10:46-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:STOP","time":"2024-03-11T12:10:47-07:00"}
+{"jumpSecondsArgs":null,"level":"info","msg":"DASH_CLIENT:","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","mpdFile":"https://10.0.0.4:8888/www/20min/20min.mpd","msg":"DASH_CLIENT: Downloading MPD file","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","mpdFile":"logs/dash/TEMP_94950/20min.mpd","msg":"DASH_CLIENT: Downloaded MPD file","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","mpdFile":"logs/dash/TEMP_94950/20min.mpd","msg":"DASH_CLIENT: Reading MPD file","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: MPD file DASH media video","representation count":2,"time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Starting BASIC playback","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_PLAYER: Initializing the Buffer","time":"2024-03-11T12:10:47-07:00"}
+{"Alpha":5,"Beta":10,"InitialBuffer":1,"MaxBufferSize ":32,"PlaybackDuration":75635,"SegmentDuration":5,"level":"info","msg":"DASH_PLAYER: Video Info","time":"2024-03-11T12:10:47-07:00"}
+{"from":"INITIALIZED","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:10:47-07:00","to":"INITIAL_BUFFERING"}
+{"level":"info","msg":"DASH_PLAYER: Starting the Player","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","localTempFolder":"logs/dash/TEMP_94950/","msg":"DASH_CLIENT: The segments are stored in folder","time":"2024-03-11T12:10:47-07:00"}
+{"PlaybackDuration":75635,"level":"info","msg":"DASH_PLAYER: Initialized player with video length","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":1,"time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/init.mp4","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/init.mp4","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":1,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"1","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":1,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"initialWait":0.3000001907348633,"level":"info","msg":"DASH_PLAYER: Initial Waiting Time","time":"2024-03-11T12:10:47-07:00"}
+{"from":"INITIAL_BUFFERING","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:10:47-07:00","to":"PLAY"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":-5,"dp.Playback Duration":75635,"dp.Playback Time":0,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:47-07:00"}
+{"Bitrate":"420217","Playback Time":0,"Segment":"1","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":2,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":2,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-1.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-1.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":2,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"2","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":2,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":3,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":3,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-2.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-2.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":3,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"3","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":3,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":4,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":4,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-3.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-3.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":4,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"4","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":4,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":5,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":5,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-4.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-4.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":5,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"5","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":5,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":6,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":6,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-5.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-5.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":6,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"6","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":6,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":7,"time":"2024-03-11T12:10:47-07:00"}
+{"downloadRate":"NaN","level":"info","msg":"DASH_CLIENT: Basic Adaptation","nextRate":"420217.00","time":"2024-03-11T12:10:47-07:00"}
+{"Next Bitrate":"420217.00","Next Segment Number":7,"level":"info","msg":"DASH_CLIENT: Basic-DASH: Selected bitrate for the next segment","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Segment URL","segmentUrl":"https://10.0.0.4:8888/www/video/20mins/video/avc1/1/seg-6.m4s","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Downloaded segment","segmentFileName":"logs/dash/TEMP_94950/seg-6.m4s","segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: The total downloaded, segment_size, segment_number","segmentNumber":7,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00","totalDownloaded":"0.00"}
+{"fields.time":"1710184248.90","level":"info","msg":"DASH_CLIENT: Writing segment","segment":"7","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: DOWNLOADED:","segmentDownloadTime":"0.00","segmentNumber":7,"segmentSize":"0.00","time":"2024-03-11T12:10:47-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Processing the segment","playbackType":"BASIC","segmentNumber":8,"time":"2024-03-11T12:10:47-07:00"}
+{"SegmentLimit":7,"level":"info","msg":"DASH_CLIENT: Segment limit reached. Downloading segments will stop... ","time":"2024-03-11T12:10:47-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":0,"time":"2024-03-11T12:10:48-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:48-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":1,"time":"2024-03-11T12:10:49-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:49-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":2,"time":"2024-03-11T12:10:50-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:50-07:00"}
+{"dp.BufferLength":30,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":3,"time":"2024-03-11T12:10:51-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:51-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":5,"dp.Playback Duration":75635,"dp.Playback Time":5,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:52-07:00"}
+{"Bitrate":"420217","Playback Time":5,"Segment":"2","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:52-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":4,"time":"2024-03-11T12:10:52-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:52-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":5,"time":"2024-03-11T12:10:53-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:53-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":6,"time":"2024-03-11T12:10:54-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:54-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":7,"time":"2024-03-11T12:10:55-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:55-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":8,"time":"2024-03-11T12:10:56-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:56-07:00"}
+{"dp.BufferLength":25,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":9,"time":"2024-03-11T12:10:57-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":10,"dp.Playback Duration":75635,"dp.Playback Time":10,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:10:57-07:00"}
+{"Bitrate":"420217","Playback Time":10,"Segment":"3","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:10:57-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:57-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":10,"time":"2024-03-11T12:10:58-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:58-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":11,"time":"2024-03-11T12:10:59-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:10:59-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":12,"time":"2024-03-11T12:11:00-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:00-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":13,"time":"2024-03-11T12:11:01-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:01-07:00"}
+{"dp.BufferLength":20,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":14,"time":"2024-03-11T12:11:02-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":15,"dp.Playback Duration":75635,"dp.Playback Time":15,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:11:02-07:00"}
+{"Bitrate":"420217","Playback Time":15,"Segment":"4","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:11:02-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:02-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":15,"time":"2024-03-11T12:11:03-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:03-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":16,"time":"2024-03-11T12:11:04-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:04-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":17,"time":"2024-03-11T12:11:05-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:05-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":18,"time":"2024-03-11T12:11:06-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:06-07:00"}
+{"dp.BufferLength":15,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":19,"time":"2024-03-11T12:11:07-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":20,"dp.Playback Duration":75635,"dp.Playback Time":20,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:11:07-07:00"}
+{"Bitrate":"420217","Playback Time":20,"Segment":"5","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:11:07-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:07-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":20,"time":"2024-03-11T12:11:08-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:08-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":21,"time":"2024-03-11T12:11:09-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:09-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":22,"time":"2024-03-11T12:11:10-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:10-07:00"}
+{"dp.BufferLength":10,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":23,"time":"2024-03-11T12:11:11-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:11-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":25,"dp.Playback Duration":75635,"dp.Playback Time":25,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:11:12-07:00"}
+{"Bitrate":"420217","Playback Time":25,"Segment":"6","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:11:12-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":24,"time":"2024-03-11T12:11:12-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:12-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":25,"time":"2024-03-11T12:11:13-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:13-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":26,"time":"2024-03-11T12:11:14-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:14-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":27,"time":"2024-03-11T12:11:15-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:15-07:00"}
+{"dp.BufferLength":5,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":28,"time":"2024-03-11T12:11:16-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:16-07:00"}
+{"(dp.CurrentSegment*dp.SegmentDuration)":30,"dp.Playback Duration":75635,"dp.Playback Time":30,"level":"info","msg":"DASH_JUMP: Player info for END control","time":"2024-03-11T12:11:17-07:00"}
+{"Bitrate":"420217","Playback Time":30,"Segment":"7","level":"info","msg":"DASH_PLAYER: Reading the segment from the buffer at playtime","time":"2024-03-11T12:11:17-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":29,"time":"2024-03-11T12:11:17-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:17-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":30,"time":"2024-03-11T12:11:18-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:18-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":31,"time":"2024-03-11T12:11:19-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:19-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":32,"time":"2024-03-11T12:11:20-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:20-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":33,"time":"2024-03-11T12:11:21-07:00"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:PLAY","time":"2024-03-11T12:11:21-07:00"}
+{"dp.BufferLength":0,"dp.PlaybackState":"PLAY","level":"info","msg":"DASH_PLAYER: Player State","sec":34,"time":"2024-03-11T12:11:22-07:00"}
+{"SegmentLimit":7,"level":"info","msg":"DASH_PLAYER: Segment limit reached, Player will stop ","segmentNumber":7,"time":"2024-03-11T12:11:22-07:00"}
+{"from":"PLAY","level":"info","msg":"DASH_PLAYER: Changing Player State","time":"2024-03-11T12:11:22-07:00","to":"STOP"}
+{"level":"info","msg":"DASH_CLIENT: Client is waiting for player stop, current player state:STOP","time":"2024-03-11T12:11:22-07:00"}

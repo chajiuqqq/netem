@@ -1,0 +1,19 @@
+http3 served on 0.0.0.0:8888
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /test                     --> qperf-go/server.setupHandler.func1 (3 handlers)
+[GIN-debug] GET    /html/:filename           --> qperf-go/server.setupHandler.func2 (3 handlers)
+[GIN] 2024/03/11 - 12:10:47 | 200 |    2.455123ms |        10.0.0.1 | GET      "/www/20min/20min.mpd"
+[GIN] 2024/03/11 - 12:10:47 | 404 |      23.775µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/init.mp4"
+[GIN] 2024/03/11 - 12:10:47 | 404 |       6.492µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-1.m4s"
+[GIN] 2024/03/11 - 12:10:47 | 404 |       7.694µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-2.m4s"
+[GIN] 2024/03/11 - 12:10:47 | 404 |         5.8µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-3.m4s"
+[GIN] 2024/03/11 - 12:10:47 | 404 |        5.64µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-4.m4s"
+[GIN] 2024/03/11 - 12:10:47 | 404 |       7.434µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-5.m4s"
+[GIN] 2024/03/11 - 12:10:47 | 404 |         5.4µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-6.m4s"

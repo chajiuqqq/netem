@@ -1,0 +1,392 @@
+[
+    {
+        "second": 0,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 1,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 2,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 3,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 4,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 5,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 15
+    },
+    {
+        "second": 6,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 15
+    },
+    {
+        "second": 7,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 15
+    },
+    {
+        "second": 8,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 15
+    },
+    {
+        "second": 9,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 15
+    },
+    {
+        "second": 10,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 20
+    },
+    {
+        "second": 11,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 20
+    },
+    {
+        "second": 12,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 20
+    },
+    {
+        "second": 13,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 20
+    },
+    {
+        "second": 14,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 20
+    },
+    {
+        "second": 15,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 16,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 17,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 18,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 19,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 20,
+        "quic": 35,
+        "tcp": 30,
+        "dcm-quic": 35
+    },
+    {
+        "second": 21,
+        "quic": 35,
+        "tcp": 30,
+        "dcm-quic": 35
+    },
+    {
+        "second": 22,
+        "quic": 35,
+        "tcp": 30,
+        "dcm-quic": 35
+    },
+    {
+        "second": 23,
+        "quic": 35,
+        "tcp": 30,
+        "dcm-quic": 35
+    },
+    {
+        "second": 24,
+        "quic": 35,
+        "tcp": 30,
+        "dcm-quic": 35
+    },
+    {
+        "second": 25,
+        "quic": 35,
+        "tcp": 35,
+        "dcm-quic": 35
+    },
+    {
+        "second": 26,
+        "quic": 35,
+        "tcp": 35,
+        "dcm-quic": 35
+    },
+    {
+        "second": 27,
+        "quic": 35,
+        "tcp": 35,
+        "dcm-quic": 35
+    },
+    {
+        "second": 28,
+        "quic": 35,
+        "tcp": 35,
+        "dcm-quic": 35
+    },
+    {
+        "second": 29,
+        "quic": 30,
+        "tcp": 30,
+        "dcm-quic": 30
+    },
+    {
+        "second": 30,
+        "quic": 30,
+        "tcp": 30,
+        "dcm-quic": 30
+    },
+    {
+        "second": 31,
+        "quic": 30,
+        "tcp": 30,
+        "dcm-quic": 30
+    },
+    {
+        "second": 32,
+        "quic": 30,
+        "tcp": 30,
+        "dcm-quic": 30
+    },
+    {
+        "second": 33,
+        "quic": 30,
+        "tcp": 30,
+        "dcm-quic": 30
+    },
+    {
+        "second": 34,
+        "quic": 25,
+        "tcp": 25,
+        "dcm-quic": 25
+    },
+    {
+        "second": 35,
+        "quic": 25,
+        "tcp": 25,
+        "dcm-quic": 25
+    },
+    {
+        "second": 36,
+        "quic": 25,
+        "tcp": 25,
+        "dcm-quic": 25
+    },
+    {
+        "second": 37,
+        "quic": 25,
+        "tcp": 25,
+        "dcm-quic": 25
+    },
+    {
+        "second": 38,
+        "quic": 25,
+        "tcp": 25,
+        "dcm-quic": 25
+    },
+    {
+        "second": 39,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 40,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 41,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 42,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 43,
+        "quic": 20,
+        "tcp": 20,
+        "dcm-quic": 20
+    },
+    {
+        "second": 44,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 15
+    },
+    {
+        "second": 45,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 15
+    },
+    {
+        "second": 46,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 15
+    },
+    {
+        "second": 47,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 15
+    },
+    {
+        "second": 48,
+        "quic": 15,
+        "tcp": 15,
+        "dcm-quic": 15
+    },
+    {
+        "second": 49,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 10
+    },
+    {
+        "second": 50,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 10
+    },
+    {
+        "second": 51,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 10
+    },
+    {
+        "second": 52,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 10
+    },
+    {
+        "second": 53,
+        "quic": 10,
+        "tcp": 10,
+        "dcm-quic": 10
+    },
+    {
+        "second": 54,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 55,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 56,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 57,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 58,
+        "quic": 5,
+        "tcp": 5,
+        "dcm-quic": 5
+    },
+    {
+        "second": 59,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    },
+    {
+        "second": 60,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    },
+    {
+        "second": 61,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    },
+    {
+        "second": 62,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    },
+    {
+        "second": 63,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    },
+    {
+        "second": 64,
+        "quic": 0,
+        "tcp": 0,
+        "dcm-quic": 0
+    }
+]

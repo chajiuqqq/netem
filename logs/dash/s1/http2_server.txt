@@ -1,0 +1,21 @@
+[WARNING] DON'T USE THE EMBED CERTS FROM THIS EXAMPLE IN PRODUCTION ENVIRONMENT, GENERATE YOUR OWN!
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /www/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /html/:filename           --> main.main.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTPS on :8080
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN] 2024/03/11 - 12:10:11 | 200 |     6.49899ms |        10.0.0.1 | GET      "/www/20min/20min.mpd"
+[GIN] 2024/03/11 - 12:10:11 | 404 |      23.636µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/init.mp4"
+[GIN] 2024/03/11 - 12:10:11 | 404 |       6.873µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-1.m4s"
+[GIN] 2024/03/11 - 12:10:11 | 404 |       5.551µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-2.m4s"
+[GIN] 2024/03/11 - 12:10:11 | 404 |       5.941µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-3.m4s"
+[GIN] 2024/03/11 - 12:10:11 | 404 |        5.65µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-4.m4s"
+[GIN] 2024/03/11 - 12:10:11 | 404 |       6.743µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-5.m4s"
+[GIN] 2024/03/11 - 12:10:11 | 404 |       6.712µs |        10.0.0.1 | GET      "/www/video/20mins/video/avc1/1/seg-6.m4s"
