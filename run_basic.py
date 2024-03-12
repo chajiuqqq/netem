@@ -67,14 +67,13 @@ class TestManager:
         dir = LOG_DIR+'/fairness'
         create_directory(dir)
         params = conf['tests']['fairness']['params']
-        print('params:',params['duration'])
 
         # tcp
-        self.s.cmd(f'iperf3 -s -p 5000 -i 1 -V -J --logfile {dir}/tcp_server.json &')
-        self.c.cmd(f'iperf3 -c {self.s.IP()} -p 5000 -t {params["duration"]} -i 1 -J -R -P {params["n_tcp_streams"]} -V --logfile {dir}/tcp_client.json &')
-
+        self.s.cmd(f'iperf3 -s -p 5000 -i {params["report_interval"]} -V -J --logfile {dir}/tcp_server.json &')
         # quic
         self.s.cmd(f'./bin/qperf-go server --port=8080 &> {dir}/quic_server.txt &')
+
+        self.c.cmd(f'iperf3 -c {self.s.IP()} -C cubic -p 5000 -t {params["duration"]} -i 1 -J -R -P {params["n_tcp_streams"]} -V --logfile {dir}/tcp_client.json &')
         self.c.cmd(f'./bin/qperf-go client --log-prefix=quic --addr="{self.s.IP()}:8080" --t={params["duration"]} &> {dir}/quic_client.txt &')
         self.c.cmd('wait')
 
@@ -181,23 +180,14 @@ def main():
     h1,h4=net.get('h1'),net.get('h4')
     tm = TestManager(net,h1,h4)
     
-    # if args.test == 'plt':
-    #     run_plt_test(net)
+    if args.test == 'plt':
+        tm.run_plt()
     if args.test == 'basic':
         tm.run_basic()
-
     if args.test == 'dash':
         tm.run_dash()
-        # run_throughput_test(net)
-        # plot(conf['tests'][args.test]['params']['name'])
-    # if args.test == 'quic_std':
-    #     run_10mb_test(net)
-    # if args.test == 'fairness':
-    #     run_fairness_test(net)
-    #     plot(conf['tests'][args.test]['params']['name'])
-    # if args.test == 'video':
-    #     run_stream_test(net)
-    #     plot_video_stream(conf['tests']['video_stream']['params'])
+    if args.test == 'fairness':
+        tm.run_fairness()
 
     # CLI(net)
     net.stop()

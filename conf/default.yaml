@@ -18,7 +18,9 @@ tests:
   fairness:
     params:
       name: fairness
+      duration: 15
       n_tcp_streams: 1
+      report_interval: 0.5
   init:
     params:
       name: init
