@@ -1,0 +1,19 @@
+[quic] connection establishment time: 81.21 ms
+[quic] time to first byte: 141.95 ms
+[quic] second 1: 1.42 Mbit/s, bytes received: 178.914 kB, packets received: 0
+[quic] second 2: 1.1 Mbit/s, bytes received: 139.644 kB, packets received: 0
+[quic] second 3: 3.77 Mbit/s, bytes received: 472.116 kB, packets received: 0
+[quic] second 4: 5.86 Mbit/s, bytes received: 733.622 kB, packets received: 0
+[quic] second 5: 3.03 Mbit/s, bytes received: 380.49 kB, packets received: 0
+[quic] second 6: 3.92 Mbit/s, bytes received: 491.264 kB, packets received: 0
+[quic] second 7: 1.89 Mbit/s, bytes received: 236.702 kB, packets received: 0
+[quic] second 8: 1.86 Mbit/s, bytes received: 250.832 kB, packets received: 0
+[quic] second 9: 3.78 Mbit/s, bytes received: 474.306 kB, packets received: 0
+[quic] second 10: 5.65 Mbit/s, bytes received: 708.17 kB, packets received: 0
+[quic] second 11: 5.04 Mbit/s, bytes received: 632.224 kB, packets received: 0
+[quic] second 12: 3.9 Mbit/s, bytes received: 488.958 kB, packets received: 0
+[quic] second 13: 2.41 Mbit/s, bytes received: 301.726 kB, packets received: 0
+[quic] second 14: 4.14 Mbit/s, bytes received: 518.632 kB, packets received: 0
+[quic] second 15: 6.64 Mbit/s, bytes received: 830.768 kB, packets received: 0
+[quic] total: bytes received: 6.838368 MB, packets received: 0
+[quic] export states success:result/quic_quic.json

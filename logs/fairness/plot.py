@@ -64,7 +64,7 @@ def plot_throughput(setting_name):
     # set plot data
     df=pd.DataFrame()
     df['second']=df1['Second']
-    df['quic'] = df1['mbps']
+    df['dcm-quic'] = df1['mbps']
     df['tcp'] = df2['mbps']
     # df["dcm-quic"] = df3["mbps"]
 
@@ -80,8 +80,8 @@ def plot_throughput(setting_name):
     x = df["second"]
 
     # 绘制折线图
-    plt.plot(x, df["quic"], label="QUIC-Cubic", marker='o')
-    plt.plot(x, df["tcp"], label="TCP-Cubic", marker='o')
+    plt.plot(x, df["dcm-quic"], label="DCM-QUIC", marker='o')
+    plt.plot(x, df["tcp"], label="TCP-Cubic*2", marker='o')
     # plt.plot(x, df["dcm-quic"], label="DCM-QUIC", marker='o')
 
     # 添加图例

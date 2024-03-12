@@ -19,12 +19,12 @@ tests:
     params:
       name: fairness
       duration: 15
-      n_tcp_streams: 1
+      n_tcp_streams: 2
       report_interval: 0.5
   init:
     params:
       name: init
 mn:
   bw: 10
-  loss: 1
+  loss: 7
   delay: 25

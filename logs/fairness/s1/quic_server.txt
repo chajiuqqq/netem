@@ -1,0 +1,5 @@
+starting server with pid 6199, port 8080, cc new reno
+using cubic cc
+[connection 0] open
+[connection 0][stream 0] open
+[connection 0] close
